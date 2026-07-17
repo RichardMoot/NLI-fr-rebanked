@@ -104314,13 +104314,13 @@ sent(7010, Result) :-
 		   Result).
 sent(7011, Result) :-
 	prob_parse(
-		   [ si('Papier', nc-nom, papier, [n-1]),
-		     si(et, cc-kon, et, [dr(0, dl(0, n, n), n)-1]),
+		   [ si('Papier', nc-nom, papier, [np-1]),
+		     si(et, cc-kon, et, [dr(0, dl(0, np, np), n)-1]),
 		     si(ciseaux, nc-nom, ciseau, [n-1]),
-		     si(à, p-prp, à, [dr(0, dr(0, dl(0, n, n), dl(0, n, n)), np)-1]),
-		     si(la, det-det:art, la, [dr(0, np, n)-1]),
-		     si(fois, nc-nom, fois, [n-1]),
-		     si(coupés, vpp-ver:pper, couper, [dl(0, n, n)-1])
+		     si(coupent, v-ver:pres, couper, [dl(0, np, s)-1]),
+		     si(tout, adv-adv, tout,  [dr(0, dl(1, s, s), np)-1]),
+		     si(les, det-det:art, le, [dr(0, np, n)-1]),
+		     si(deux, nc-nom, deux, [n-1])
 		   ],
 		   Result).
 sent(7012, Result) :-
