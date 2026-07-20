@@ -180125,7 +180125,7 @@ sent(12593, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -180141,7 +180141,7 @@ sent(12594, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -180157,7 +180157,7 @@ sent(12595, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -180189,7 +180189,7 @@ sent(12597, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -180240,7 +180240,7 @@ sent(12600, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -180341,7 +180341,7 @@ sent(12606, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -180357,7 +180357,7 @@ sent(12607, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -180393,7 +180393,7 @@ sent(12609, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
