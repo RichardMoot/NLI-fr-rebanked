@@ -5831,7 +5831,7 @@ sent(360, Result) :-
 		   Result).
 sent(361, Result) :-
 	prob_parse(
-		   [ si('Diverses', adj-pro:ind, diverses, [dr(0, np, n)-1]),
+		   [ si('Diverses', adj-adj, diverses, [dr(0, np, n)-1]),
 		     si(personnes, nc-nom, personne, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dl(0, np, s)-1]),
 		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
@@ -5882,7 +5882,7 @@ sent(363, Result) :-
 		   Result).
 sent(364, Result) :-
 	prob_parse(
-		   [ si('Diverses', adj-pro:ind, diverses, [dr(0, np, n)-1]),
+		   [ si('Diverses', adj-adj, diverses, [dr(0, np, n)-1]),
 		     si(personnes, nc-nom, personne, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dl(0, np, s)-1]),
 		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
@@ -5921,7 +5921,7 @@ sent(365, Result) :-
 		   Result).
 sent(366, Result) :-
 	prob_parse(
-		   [ si('Diverses', adj-pro:ind, diverses, [dr(0, np, n)-1]),
+		   [ si('Diverses', adj-adj, diverses, [dr(0, np, n)-1]),
 		     si(personnes, nc-nom, personne, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dl(0, np, s)-1]),
 		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
@@ -6042,7 +6042,7 @@ sent(373, Result) :-
 		   Result).
 sent(374, Result) :-
 	prob_parse(
-		   [ si('Diverses', adj-pro:ind, diverses, [dr(0, np, n)-1]),
+		   [ si('Diverses', adj-adj, diverses, [dr(0, np, n)-1]),
 		     si(personnes, nc-nom, personne, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dl(0, np, s)-1]),
 		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
@@ -6061,7 +6061,7 @@ sent(374, Result) :-
 		   Result).
 sent(375, Result) :-
 	prob_parse(
-		   [ si('Diverses', adj-pro:ind, diverses, [dr(0, np, n)-1]),
+		   [ si('Diverses', adj-adj, diverses, [dr(0, np, n)-1]),
 		     si(personnes, nc-nom, personne, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dl(0, np, s)-1]),
 		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
@@ -6109,7 +6109,7 @@ sent(377, Result) :-
 		   Result).
 sent(378, Result) :-
 	prob_parse(
-		   [ si('Diverses', adj-pro:ind, diverses, [dr(0, np, n)-1]),
+		   [ si('Diverses', adj-adj, diverses, [dr(0, np, n)-1]),
 		     si(personnes, nc-nom, personne, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dl(0, np, s)-1]),
 		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
@@ -6140,7 +6140,7 @@ sent(379, Result) :-
 		   Result).
 sent(380, Result) :-
 	prob_parse(
-		   [ si('Diverses', adj-pro:ind, diverses, [dr(0, np, n)-1]),
+		   [ si('Diverses', adj-adj, diverses, [dr(0, np, n)-1]),
 		     si(personnes, nc-nom, personne, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dl(0, np, s)-1]),
 		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
@@ -6220,7 +6220,7 @@ sent(384, Result) :-
 		   Result).
 sent(385, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(est, v-ver:pres, être, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -6289,7 +6289,7 @@ sent(387, Result) :-
 		   Result).
 sent(388, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(est, v-ver:pres, être, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -6388,7 +6388,7 @@ sent(392, Result) :-
 		   Result).
 sent(393, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(est, v-ver:pres, être, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -6429,7 +6429,7 @@ sent(394, Result) :-
 		   Result).
 sent(395, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(est, v-ver:pres, être, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -6469,7 +6469,7 @@ sent(396, Result) :-
 		   Result).
 sent(397, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(est, v-ver:pres, être, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -19062,7 +19062,7 @@ sent(1091, Result) :-
 		   Result).
 sent(1092, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(est,
 			v-ver:pres,
 			être,
@@ -19189,7 +19189,7 @@ sent(1097, Result) :-
 		   Result).
 sent(1098, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(est,
 			v-ver:pres,
 			être,
@@ -31757,7 +31757,7 @@ sent(1749, Result) :-
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
 		     si(blanc, adj-adj, blanc, [dl(0, n, n)-1]),
 		     si('n\'', adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
-		     si(acclame, v-ver:pres, acclamer, [dl(0, np, s)-1]),
+		     si(applaudit, v-ver:pres, applaudir, [dl(0, np, s)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1])
 		   ],
 		   Result).
@@ -31888,7 +31888,7 @@ sent(1756, Result) :-
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
 		     si(blanc, adj-adj, blanc, [dl(0, n, n)-1]),
 		     si('n\'', adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
-		     si(acclame, v-ver:pres, acclamer, [dl(0, np, s)-1]),
+		     si(applaudit, v-ver:pres, applaudir, [dl(0, np, s)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1])
 		   ],
 		   Result).
@@ -34254,7 +34254,7 @@ sent(1883, Result) :-
 		     si(chariot, nc-nom, chariot, [n-1]),
 		     si(plein, adj-adj, plein, [dr(0, dl(0, n, n), pp_de)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, n)-1]),
-		     si('Corndogs', npp-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1884, Result) :-
@@ -34283,7 +34283,7 @@ sent(1885, Result) :-
 		     si(enfants, nc-nom, enfant, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('Corndogs', nc-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1886, Result) :-
@@ -34293,7 +34293,7 @@ sent(1886, Result) :-
 		     si(enfants, nc-nom, enfant, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('Corndogs', npp-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1887, Result) :-
@@ -34303,7 +34303,7 @@ sent(1887, Result) :-
 		     si(enfants, nc-nom, enfant, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('Corndogs', nc-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1888, Result) :-
@@ -34327,7 +34327,7 @@ sent(1889, Result) :-
 		     si(homme, nc-nom, homme, [n-1]),
 		     si(mangeant, vpr-ver:ppre, manger, [dr(0, dl(0, n, n), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('Corndogs', npp-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1890, Result) :-
@@ -34337,7 +34337,7 @@ sent(1890, Result) :-
 		     si(enfants, nc-nom, enfant, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('Corndogs', nc-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1891, Result) :-
@@ -34366,7 +34366,7 @@ sent(1892, Result) :-
 		     si(enfants, nc-nom, enfant, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('Corndogs', nc-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1893, Result) :-
@@ -34409,7 +34409,7 @@ sent(1895, Result) :-
 		     si(homme, nc-nom, homme, [n-1]),
 		     si(mangeant, vpr-ver:ppre, manger, [dr(0, dl(0, n, n), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('Corndogs', npp-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1896, Result) :-
@@ -34475,7 +34475,7 @@ sent(1898, Result) :-
 		     si(enfants, nc-nom, enfant, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('Corndogs', nc-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1899, Result) :-
@@ -34503,7 +34503,7 @@ sent(1900, Result) :-
 		     si(enfants, nc-nom, enfant, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('Corndogs', nc-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1901, Result) :-
@@ -34518,7 +34518,7 @@ sent(1901, Result) :-
 		     si(chariot, nc-nom, chariot, [n-1]),
 		     si(plein, adj-adj, plein, [dr(0, dl(0, n, n), pp_de)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, n)-1]),
-		     si('Corndogs', npp-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1902, Result) :-
@@ -34528,7 +34528,7 @@ sent(1902, Result) :-
 		     si(enfants, nc-nom, enfant, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('Corndogs', npp-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1903, Result) :-
@@ -34557,7 +34557,7 @@ sent(1904, Result) :-
 		     si(enfants, nc-nom, enfant, [n-1]),
 		     si(mangent, v-ver:pres, manger, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('Corndogs', npp-nam, 'Corndogs', [n-1])
+		     si('Corndogs', nc-nom, 'Corndogs', [n-1])
 		   ],
 		   Result).
 sent(1905, Result) :-
@@ -36822,7 +36822,7 @@ sent(2001, Result) :-
 sent(2002, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
-		     si('Jockeys', nc-nam, 'Jockeys', [n-1]),
+		     si('Jockeys', nc-nom, 'Jockeys', [n-1]),
 		     si(font, v-ver:pres, faire, [dr(0, dr(0, dl(0, np, s), np), dl(0, np, s_inf))-1]),
 		     si(courir, vinf:ver:infi, courir, [dl(0, np, s_inf)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
@@ -36840,7 +36840,7 @@ sent(2002, Result) :-
 sent(2003, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
-		     si('Jockeys', nc-nam, 'Jockeys', [n-1]),
+		     si('Jockeys', nc-nom, 'Jockeys', [n-1]),
 		     si(font, v-ver:pres, faire, [dr(0, dr(0, dl(0, np, s), np), dl(0, np, s_inf))-1]),
 		     si(courir, vinf:ver:infi, courir, [dl(0, np, s_inf)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
@@ -36904,7 +36904,7 @@ sent(2005, Result) :-
 sent(2006, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
-		     si('Jockeys', nc-nam, 'Jockeys', [n-1]),
+		     si('Jockeys', nc-nom, 'Jockeys', [n-1]),
 		     si(font, v-ver:pres, faire, [dr(0, dr(0, dl(0, np, s), np), dl(0, np, s_inf))-1]),
 		     si(courir, vinf:ver:infi, courir, [dl(0, np, s_inf)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
@@ -37030,7 +37030,7 @@ sent(2012, Result) :-
 sent(2013, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
-		     si('Jockeys', nc-nam, 'Jockeys', [n-1]),
+		     si('Jockeys', nc-nom, 'Jockeys', [n-1]),
 		     si(font, v-ver:pres, faire, [dr(0, dr(0, dl(0, np, s), np), dl(0, np, s_inf))-1]),
 		     si(courir, vinf:ver:infi, courir, [dl(0, np, s_inf)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
@@ -37082,7 +37082,7 @@ sent(2015, Result) :-
 sent(2016, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
-		     si('Jockeys', nc-nam, 'Jockeys', [n-1]),
+		     si('Jockeys', nc-nom, 'Jockeys', [n-1]),
 		     si(font, v-ver:pres, faire, [dr(0, dr(0, dl(0, np, s), np), dl(0, np, s_inf))-1]),
 		     si(courir, vinf:ver:infi, courir, [dl(0, np, s_inf)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
@@ -37117,7 +37117,7 @@ sent(2017, Result) :-
 sent(2018, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
-		     si('Jockeys', nc-nam, 'Jockeys', [n-1]),
+		     si('Jockeys', nc-nom, 'Jockeys', [n-1]),
 		     si(font, v-ver:pres, faire, [dr(0, dr(0, dl(0, np, s), np), dl(0, np, s_inf))-1]),
 		     si(courir, vinf:ver:infi, courir, [dl(0, np, s_inf)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
@@ -37274,7 +37274,7 @@ sent(2025, Result) :-
 sent(2026, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
-		     si('Jockeys', nc-nam, 'Jockeys', [n-1]),
+		     si('Jockeys', nc-nom, 'Jockeys', [n-1]),
 		     si(montent, v-ver:pres, monter, [dl(0, np, s)-1]),
 		     si(à, p-prp, à, [dr(0, dl(1,s,s), n)-1]),
 		     si(cheval, nc-nom, cheval, [n-1]),
@@ -53155,14 +53155,10 @@ sent(3217, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(personne, nc-nom, personne, [n-1]),
-		     si(est,
-			v-ver:pres,
-			être,
-			[dr(0, dl(0, np, s), dl(0, np, s_ppart))-1]),
-		     si(bowling, nc-nom, bowling, [dr(0, dl(0, np, s_ppart), np)-1]),
+		     si(lance, v-ver:pres, lancer, [dr(0, dl(0, np, s), np)-1]),
 		     si(les, det-det:art, les, [dr(0, np, n)-1]),
 		     si(ingrédients, nc-nom, ingrédient, [n-1]),
-		     si(à, p-prp, à, [dr(0, dl(0, n, n), np)-1]),
+		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
 		     si(au, p+d-prp:det, au, [dr(0, dl(0, n, n), n)-1]),
@@ -53263,14 +53259,12 @@ sent(3224, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1]),
-		     si(bowling, nc-nom, bowling, [dr(0, dl(0, n, n), np)-1]),
+		     si(lance, v-ver:pres, lancer, [dr(0, dl(0, np, s), np)-1]),
 		     si(deux, det-num, deux, [dr(0, np, n)-1]),
 		     si(oeufs, nc-nom, oeuf, [n-1]),
-		     si(à, p-prp, à, [dr(0, dl(0, n, n), np)-1]),
-		     si(une, det-det:art, un, [dr(0, np, n)-1]),
-		     si(danseuse, nc-nom, danseur, [n-1]),
-		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(pause, nc-nom, pause, [n-1])
+		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
+		     si(un, det-det:art, un, [dr(0, np, n)-1]),
+		     si(breakdancer, et-nom, breakdancer, [n-1])
 		   ],
 		   Result).
 sent(3225, Result) :-
@@ -53371,14 +53365,12 @@ sent(3230, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1]),
-		     si(bowling, nc-nom, bowling, [dr(0, dl(0, n, n), np)-1]),
+		     si(lance, v-ver:pres, lancer, [dr(0, dl(0, np, s), np)-1]),
 		     si(deux, det-num, deux, [dr(0, np, n)-1]),
 		     si(oeufs, nc-nom, oeuf, [n-1]),
-		     si(à, p-prp, à, [dr(0, dl(0, n, n), np)-1]),
-		     si(une, det-det:art, un, [dr(0, np, n)-1]),
-		     si(danseuse, nc-nom, danseur, [n-1]),
-		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(pause, nc-nom, pause, [n-1])
+		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
+		     si(un, det-det:art, un, [dr(0, np, n)-1]),
+		     si(breakdancer, et-nom, breakdancer, [n-1])
 		   ],
 		   Result).
 sent(3231, Result) :-
@@ -53441,14 +53433,10 @@ sent(3235, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(personne, nc-nom, personne, [n-1]),
-		     si(est,
-			v-ver:pres,
-			être,
-			[dr(0, dl(0, np, s), dl(0, np, s_ppart))-1]),
-		     si(bowling, nc-nom, bowling, [dr(0, dl(0, np, s_ppart), np)-1]),
+		     si(lance, v-ver:pres, lancer, [dr(0, dl(0, np, s), np)-1]),
 		     si(les, det-det:art, les, [dr(0, np, n)-1]),
 		     si(ingrédients, nc-nom, ingrédient, [n-1]),
-		     si(à, p-prp, à, [dr(0, dl(0, n, n), np)-1]),
+		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
 		     si(au, p+d-prp:det, au, [dr(0, dl(0, n, n), n)-1]),
@@ -54690,7 +54678,7 @@ sent(3323, Result) :-
 		   Result).
 sent(3324, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(verse,
 			v-ver:pres,
 			verser,
@@ -54799,7 +54787,7 @@ sent(3329, Result) :-
 		   Result).
 sent(3330, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(verse,
 			v-ver:pres,
 			verser,
@@ -56113,7 +56101,7 @@ sent(3427, Result) :-
 		   Result).
 sent(3428, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(donne,
 			v-ver:pres,
 			donner,
@@ -56128,7 +56116,7 @@ sent(3428, Result) :-
 		   Result).
 sent(3429, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(donne,
 			v-ver:pres,
 			donner,
@@ -56152,7 +56140,7 @@ sent(3430, Result) :-
 		   Result).
 sent(3431, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -56209,7 +56197,7 @@ sent(3434, Result) :-
 		   Result).
 sent(3435, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(donne,
 			v-ver:pres,
 			donner,
@@ -56224,7 +56212,7 @@ sent(3435, Result) :-
 		   Result).
 sent(3436, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -56232,7 +56220,7 @@ sent(3436, Result) :-
 		   Result).
 sent(3437, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(donne,
 			v-ver:pres,
 			donner,
@@ -56280,7 +56268,7 @@ sent(3439, Result) :-
 		   Result).
 sent(3440, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(nourrit, v-ver:pres, nourrir, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1])
@@ -56329,7 +56317,7 @@ sent(3443, Result) :-
 		   Result).
 sent(3444, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(donne,
 			v-ver:pres,
 			donner,
@@ -62283,19 +62271,15 @@ sent(3843, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
 		     si(chaton, nc-nom, chaton, [n-1]),
-		     si('n\'', adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
-		     si(est, v-ver:pres, être, [dr(0, dl(0, np, s), dl(0, n, n))-1]),
-		     si(pas, adv-adv, pas, [dr(0, dl(0, n, n), dl(0, n, n))-1]),
-		     si(avide,
-			adj-adj,
-			avide,
-			[dr(0, dl(0, n, n), dl(0, np, s_inf))-1]),
-		     si(de, p-prp, de, [dr(0, dl(0, np, s_inf), dl(0, np, s_inf))-1]),
-		     si(boire, vinf-ver:infi, boire, [dr(0, dl(0, np, s_inf), np)-1]),
+		     si(ne, adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
+		     si(boit, v-ver:pres, boire, [dr(0, dl(0, np, s), np)-1]),
+		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
+		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), n)-1]),
+		     si(appétit, nc-nom, appétit, [n-1]),
 		     si(du, det-prp:det, du, [dr(0, np, n)-1]),
 		     si(lait, nc-nom, lait, [n-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
-		     si(le, det-det:art, le, [dr(0, np, n)-1]),
+		     si('d\'', p-prp, de, [dr(0, dl(1, s, s), np)-1]),
+		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(bol, nc-nom, bol, [n-1])
 		   ],
 		   Result).
@@ -62305,11 +62289,11 @@ sent(3844, Result) :-
 		     si(chaton, nc-nom, chaton, [n-1]),
 		     si(boit, v-ver:pres, boire, [dr(0, dl(0, np, s), np)-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), n)-1]),
-		     si(impatience, nc-nom, impatience, [n-1]),
+		     si(appétit, nc-nom, appétit, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
 		     si(lait, nc-nom, lait, [n-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
-		     si(le, det-det:art, le, [dr(0, np, n)-1]),
+		     si('d\'', p-prp, de, [dr(0, dl(1, s, s), np)-1]),
+		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(bol, nc-nom, bol, [n-1])
 		   ],
 		   Result).
@@ -62377,11 +62361,11 @@ sent(3849, Result) :-
 		     si(chaton, nc-nom, chaton, [n-1]),
 		     si(boit, v-ver:pres, boire, [dr(0, dl(0, np, s), np)-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), n)-1]),
-		     si(impatience, nc-nom, impatience, [n-1]),
-		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
+		     si(appétit, nc-nom, appétit, [n-1]),
+		     si(du, det-prp:det, du, [dr(0, np, n)-1]),
 		     si(lait, nc-nom, lait, [n-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
-		     si(le, det-det:art, le, [dr(0, np, n)-1]),
+		     si('d\'', p-prp, de, [dr(0, dl(1, s, s), np)-1]),
+		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(bol, nc-nom, bol, [n-1])
 		   ],
 		   Result).
@@ -62406,11 +62390,11 @@ sent(3851, Result) :-
 		     si(chaton, nc-nom, chaton, [n-1]),
 		     si(boit, v-ver:pres, boire, [dr(0, dl(0, np, s), np)-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), n)-1]),
-		     si(impatience, nc-nom, impatience, [n-1]),
-		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
+		     si(appétit, nc-nom, appétit, [n-1]),
+		     si(du, det-prp:det, du, [dr(0, np, n)-1]),
 		     si(lait, nc-nom, lait, [n-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
-		     si(le, det-det:art, le, [dr(0, np, n)-1]),
+		     si('d\'', p-prp, de, [dr(0, dl(1, s, s), np)-1]),
+		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(bol, nc-nom, bol, [n-1])
 		   ],
 		   Result).
@@ -62449,11 +62433,11 @@ sent(3854, Result) :-
 		     si(chaton, nc-nom, chaton, [n-1]),
 		     si(boit, v-ver:pres, boire, [dr(0, dl(0, np, s), np)-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), n)-1]),
-		     si(impatience, nc-nom, impatience, [n-1]),
+		     si(appétit, nc-nom, appétit, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
 		     si(lait, nc-nom, lait, [n-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
-		     si(le, det-det:art, le, [dr(0, np, n)-1]),
+		     si('d\'', p-prp, de, [dr(0, dl(1, s, s), np)-1]),
+		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(bol, nc-nom, bol, [n-1])
 		   ],
 		   Result).
@@ -62475,19 +62459,15 @@ sent(3856, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
 		     si(chaton, nc-nom, chaton, [n-1]),
-		     si('n\'', adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
-		     si(est, v-ver:pres, être, [dr(0, dl(0, np, s), dl(0, n, n))-1]),
-		     si(pas, adv-adv, pas, [dr(0, dl(0, n, n), dl(0, n, n))-1]),
-		     si(avide,
-			adj-adj,
-			avide,
-			[dr(0, dl(0, n, n), dl(0, np, s_inf))-1]),
-		     si(de, p-prp, de, [dr(0, dl(0, np, s_inf), dl(0, np, s_inf))-1]),
-		     si(boire, vinf-ver:infi, boire, [dr(0, dl(0, np, s_inf), np)-1]),
+		     si(ne, adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
+		     si(boit, v-ver:pres, boire, [dr(0, dl(0, np, s), np)-1]),
+		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
+		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), n)-1]),
+		     si(appétit, nc-nom, appétit, [n-1]),
 		     si(du, det-prp:det, du, [dr(0, np, n)-1]),
 		     si(lait, nc-nom, lait, [n-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
-		     si(le, det-det:art, le, [dr(0, np, n)-1]),
+		     si('d\'', p-prp, de, [dr(0, dl(1, s, s), np)-1]),
+		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(bol, nc-nom, bol, [n-1])
 		   ],
 		   Result).
@@ -70078,7 +70058,7 @@ sent(4376, Result) :-
 		   Result).
 sent(4377, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tombe, v-ver:pres, tomber, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(cheval, nc-nom, cheval, [n-1])
@@ -70104,7 +70084,7 @@ sent(4379, Result) :-
 		   Result).
 sent(4380, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(est, v-ver:pres, être, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -70280,7 +70260,7 @@ sent(4391, Result) :-
 		   Result).
 sent(4392, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tombe, v-ver:pres, tomber, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(cheval, nc-nom, cheval, [n-1])
@@ -70305,7 +70285,7 @@ sent(4393, Result) :-
 		   Result).
 sent(4394, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(est, v-ver:pres, être, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -72417,7 +72397,7 @@ sent(4562, Result) :-
 		   Result).
 sent(4563, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(frappe,
 			v-ver:pres,
 			frapper,
@@ -72434,7 +72414,7 @@ sent(4563, Result) :-
 		   Result).
 sent(4564, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(frappe,
 			v-ver:pres,
 			frapper,
@@ -72450,7 +72430,7 @@ sent(4564, Result) :-
 		   Result).
 sent(4565, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(frappe,
 			v-ver:pres,
 			frapper,
@@ -72487,7 +72467,7 @@ sent(4566, Result) :-
 		   Result).
 sent(4567, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(cloue, v-ver:pres, clouer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(objectif, nc-nom, objectif, [n-1]),
@@ -72504,7 +72484,7 @@ sent(4567, Result) :-
 		   Result).
 sent(4568, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(frappe,
 			v-ver:pres,
 			frapper,
@@ -72604,7 +72584,7 @@ sent(4574, Result) :-
 		   Result).
 sent(4575, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(frappe,
 			v-ver:pres,
 			frapper,
@@ -72640,7 +72620,7 @@ sent(4576, Result) :-
 		   Result).
 sent(4577, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(frappe,
 			v-ver:pres,
 			frapper,
@@ -72684,7 +72664,7 @@ sent(4579, Result) :-
 		   Result).
 sent(4580, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(frappe,
 			v-ver:pres,
 			frapper,
@@ -72700,7 +72680,7 @@ sent(4580, Result) :-
 		   Result).
 sent(4581, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(frappe,
 			v-ver:pres,
 			frapper,
@@ -72774,7 +72754,7 @@ sent(4585, Result) :-
 		   Result).
 sent(4586, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(cloue, v-ver:pres, clouer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(objectif, nc-nom, objectif, [n-1]),
@@ -72800,7 +72780,7 @@ sent(4587, Result) :-
 		   Result).
 sent(4588, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(frappe,
 			v-ver:pres,
 			frapper,
@@ -74691,7 +74671,7 @@ sent(4728, Result) :-
 		   Result).
 sent(4729, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -74699,7 +74679,7 @@ sent(4729, Result) :-
 		   Result).
 sent(4730, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -74723,7 +74703,7 @@ sent(4731, Result) :-
 		   Result).
 sent(4732, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -74777,7 +74757,7 @@ sent(4737, Result) :-
 		   Result).
 sent(4738, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -74785,7 +74765,7 @@ sent(4738, Result) :-
 		   Result).
 sent(4739, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -74803,7 +74783,7 @@ sent(4740, Result) :-
 		   Result).
 sent(4741, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -74854,7 +74834,7 @@ sent(4745, Result) :-
 		   Result).
 sent(4746, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -77843,7 +77823,7 @@ sent(5004, Result) :-
 		   Result).
 sent(5005, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -77851,7 +77831,7 @@ sent(5005, Result) :-
 		   Result).
 sent(5006, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -77859,7 +77839,7 @@ sent(5006, Result) :-
 		   Result).
 sent(5007, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -77925,7 +77905,7 @@ sent(5013, Result) :-
 		   Result).
 sent(5014, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -77933,7 +77913,7 @@ sent(5014, Result) :-
 		   Result).
 sent(5015, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -77952,7 +77932,7 @@ sent(5016, Result) :-
 		   Result).
 sent(5017, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -77987,7 +77967,7 @@ sent(5020, Result) :-
 		   Result).
 sent(5021, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -78307,7 +78287,7 @@ sent(5044, Result) :-
 		   Result).
 sent(5045, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(gratte, v-ver:pres, gratter, [dr(0, dl(0, np, s), np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(guitare, nc-nom, guitare, [n-1])
@@ -78315,7 +78295,7 @@ sent(5045, Result) :-
 		   Result).
 sent(5046, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
@@ -78324,7 +78304,7 @@ sent(5046, Result) :-
 		   Result).
 sent(5047, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(range, v-ver:pres, ranger, [dr(0, dl(0, np, s), np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(guitare, nc-nom, guitare, [n-1])
@@ -78332,7 +78312,7 @@ sent(5047, Result) :-
 		   Result).
 sent(5048, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
@@ -78351,7 +78331,7 @@ sent(5049, Result) :-
 		   Result).
 sent(5050, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(gratte, v-ver:pres, gratter, [dr(0, dl(0, np, s), np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(guitare, nc-nom, guitare, [n-1])
@@ -78369,7 +78349,7 @@ sent(5051, Result) :-
 		   Result).
 sent(5052, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(range, v-ver:pres, ranger, [dr(0, dl(0, np, s), np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(guitare, nc-nom, guitare, [n-1])
@@ -78387,7 +78367,7 @@ sent(5053, Result) :-
 		   Result).
 sent(5054, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
@@ -78405,7 +78385,7 @@ sent(5055, Result) :-
 		   Result).
 sent(5056, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
@@ -78424,7 +78404,7 @@ sent(5057, Result) :-
 		   Result).
 sent(5058, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
@@ -99516,13 +99496,13 @@ sent(6598, Result) :-
 		   Result).
 sent(6599, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(écrit, v-ver:pres, écrire, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(6600, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tape, v-ver:pres, taper, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -99539,13 +99519,13 @@ sent(6601, Result) :-
 		   Result).
 sent(6602, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tape, v-ver:pres, taper, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(6603, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tape, v-ver:pres, taper, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -99563,7 +99543,7 @@ sent(6604, Result) :-
 		   Result).
 sent(6605, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(range, v-ver:pres, ranger, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(clavier, nc-nom, clavier, [n-1])
@@ -99571,7 +99551,7 @@ sent(6605, Result) :-
 		   Result).
 sent(6606, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tape, v-ver:pres, taper, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -99589,19 +99569,19 @@ sent(6607, Result) :-
 		   Result).
 sent(6608, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tape, v-ver:pres, taper, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(6609, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tape, v-ver:pres, taper, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(6610, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(range, v-ver:pres, ranger, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(clavier, nc-nom, clavier, [n-1])
@@ -99609,13 +99589,13 @@ sent(6610, Result) :-
 		   Result).
 sent(6611, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(écrit, v-ver:pres, écrire, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(6612, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tape, v-ver:pres, taper, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -99635,7 +99615,7 @@ sent(6613, Result) :-
 		   Result).
 sent(6614, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tape, v-ver:pres, taper, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -99644,7 +99624,7 @@ sent(6614, Result) :-
 		   Result).
 sent(6615, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tape, v-ver:pres, taper, [dr(0, dl(0, np, s), pp)-1]),
 		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -99653,7 +99633,7 @@ sent(6615, Result) :-
 		   Result).
 sent(6616, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tape, v-ver:pres, taper, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -99780,7 +99760,7 @@ sent(6626, Result) :-
 		   Result).
 sent(6627, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(nettoie, v-ver:pres, nettoyer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1])
@@ -99788,7 +99768,7 @@ sent(6627, Result) :-
 		   Result).
 sent(6628, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(nettoie, v-ver:pres, nettoyer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1])
@@ -99796,7 +99776,7 @@ sent(6628, Result) :-
 		   Result).
 sent(6629, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(nettoie, v-ver:pres, nettoyer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1])
@@ -99804,7 +99784,7 @@ sent(6629, Result) :-
 		   Result).
 sent(6630, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(salit, v-ver:pres, salir, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1])
@@ -99821,7 +99801,7 @@ sent(6631, Result) :-
 		   Result).
 sent(6632, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(nettoie, v-ver:pres, nettoyer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1])
@@ -99829,7 +99809,7 @@ sent(6632, Result) :-
 		   Result).
 sent(6633, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(salit, v-ver:pres, salir, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1])
@@ -99855,7 +99835,7 @@ sent(6635, Result) :-
 		   Result).
 sent(6636, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(nettoie, v-ver:pres, nettoyer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1])
@@ -99878,7 +99858,7 @@ sent(6637, Result) :-
 		   Result).
 sent(6638, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(nettoie, v-ver:pres, nettoyer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1])
@@ -99895,7 +99875,7 @@ sent(6639, Result) :-
 		   Result).
 sent(6640, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(nettoie, v-ver:pres, nettoyer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1])
@@ -100377,7 +100357,7 @@ sent(6680, Result) :-
 		   Result).
 sent(6681, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(bat, v-ver:pres, battre, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(oeuf, nc-nom, oeuf, [n-1])
@@ -100385,7 +100365,7 @@ sent(6681, Result) :-
 		   Result).
 sent(6682, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(bat, v-ver:pres, battre, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(oeuf, nc-nom, oeuf, [n-1])
@@ -100402,7 +100382,7 @@ sent(6683, Result) :-
 		   Result).
 sent(6684, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(bat, v-ver:pres, battre, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(oeuf, nc-nom, oeuf, [n-1])
@@ -100460,7 +100440,7 @@ sent(6688, Result) :-
 		   Result).
 sent(6689, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(bat, v-ver:pres, battre, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(oeuf, nc-nom, oeuf, [n-1])
@@ -100480,7 +100460,7 @@ sent(6690, Result) :-
 		   Result).
 sent(6691, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(bat, v-ver:pres, battre, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(oeuf, nc-nom, oeuf, [n-1])
@@ -100514,7 +100494,7 @@ sent(6693, Result) :-
 		   Result).
 sent(6694, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(bat, v-ver:pres, battre, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(oeuf, nc-nom, oeuf, [n-1])
@@ -100555,7 +100535,7 @@ sent(6697, Result) :-
 		   Result).
 sent(6698, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(bat, v-ver:pres, battre, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(oeuf, nc-nom, oeuf, [n-1])
@@ -102307,7 +102287,7 @@ sent(6841, Result) :-
 		   Result).
 sent(6842, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', prowh-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(0, np, np), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(perche, nc-nom, perche, [n-1]),
@@ -102623,7 +102603,7 @@ sent(6859, Result) :-
 		   Result).
 sent(6860, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', prowh-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(0, np, np), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(perche, nc-nom, perche, [n-1]),
@@ -103406,7 +103386,7 @@ sent(6934, Result) :-
 		   Result).
 sent(6935, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103421,7 +103401,7 @@ sent(6935, Result) :-
 		   Result).
 sent(6936, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103436,7 +103416,7 @@ sent(6936, Result) :-
 		   Result).
 sent(6937, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(sort,
 			v-ver:pres,
 			sortir,
@@ -103450,7 +103430,7 @@ sent(6937, Result) :-
 		   Result).
 sent(6938, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103465,7 +103445,7 @@ sent(6938, Result) :-
 		   Result).
 sent(6939, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103480,7 +103460,7 @@ sent(6939, Result) :-
 		   Result).
 sent(6940, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(est,
 			v-ver:pres,
 			être,
@@ -103496,7 +103476,7 @@ sent(6940, Result) :-
 		   Result).
 sent(6941, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103544,7 +103524,7 @@ sent(6943, Result) :-
 		   Result).
 sent(6944, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103559,7 +103539,7 @@ sent(6944, Result) :-
 		   Result).
 sent(6945, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103607,7 +103587,7 @@ sent(6947, Result) :-
 		   Result).
 sent(6948, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103622,7 +103602,7 @@ sent(6948, Result) :-
 		   Result).
 sent(6949, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103637,7 +103617,7 @@ sent(6949, Result) :-
 		   Result).
 sent(6950, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103652,7 +103632,7 @@ sent(6950, Result) :-
 		   Result).
 sent(6951, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(sort,
 			v-ver:pres,
 			sortir,
@@ -103666,7 +103646,7 @@ sent(6951, Result) :-
 		   Result).
 sent(6952, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103681,7 +103661,7 @@ sent(6952, Result) :-
 		   Result).
 sent(6953, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(est,
 			v-ver:pres,
 			être,
@@ -103697,7 +103677,7 @@ sent(6953, Result) :-
 		   Result).
 sent(6954, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103712,7 +103692,7 @@ sent(6954, Result) :-
 		   Result).
 sent(6955, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -103727,7 +103707,7 @@ sent(6955, Result) :-
 		   Result).
 sent(6956, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -104080,7 +104060,7 @@ sent(6993, Result) :-
 		   Result).
 sent(6994, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
 		     si(papier, nc-nom, papier, [n-1]),
@@ -104258,7 +104238,7 @@ sent(7006, Result) :-
 		   Result).
 sent(7007, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
 		     si(papier, nc-nom, papier, [n-1]),
@@ -105418,7 +105398,7 @@ sent(7114, Result) :-
 		   Result).
 sent(7115, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -105527,7 +105507,7 @@ sent(7121, Result) :-
 		   Result).
 sent(7122, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
@@ -114446,7 +114426,7 @@ sent(7823, Result) :-
 		   Result).
 sent(7824, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(chante, v-ver:pres, chanter, [dl(0, np, s)-1]),
 		     si(à, p-prp, à, [dr(0, dl(1, s, s), n)-1]),
 		     si(propos, nc-nom, propos, [dr(0, n, pp_de)-1]),
@@ -114525,7 +114505,7 @@ sent(7829, Result) :-
 		   Result).
 sent(7830, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(chante, v-ver:pres, chanter, [dl(0, np, s)-1]),
 		     si(à, p-prp, à, [dr(0, dl(1, s, s), n)-1]),
 		     si(propos, nc-nom, propos, [dr(0, n, pp_de)-1]),
@@ -116780,7 +116760,7 @@ sent(8014, Result) :-
 		   Result).
 sent(8015, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(dessine, v-ver:pres, dessiner, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(personne, nc-nom, personne, [n-1])
@@ -116829,7 +116809,7 @@ sent(8020, Result) :-
 		   Result).
 sent(8021, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(dessine, v-ver:pres, dessiner, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(personne, nc-nom, personne, [n-1])
@@ -116927,7 +116907,7 @@ sent(8030, Result) :-
 		   Result).
 sent(8031, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(magnifiquement, adv-adv, magnifiquement, [dl(1, s, s)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
@@ -116936,7 +116916,7 @@ sent(8031, Result) :-
 		   Result).
 sent(8032, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -116944,7 +116924,7 @@ sent(8032, Result) :-
 		   Result).
 sent(8033, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(démantèle,
 			v-ver:pres,
 			démanteler,
@@ -116955,7 +116935,7 @@ sent(8033, Result) :-
 		   Result).
 sent(8034, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -117009,7 +116989,7 @@ sent(8039, Result) :-
 		   Result).
 sent(8040, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -117017,7 +116997,7 @@ sent(8040, Result) :-
 		   Result).
 sent(8041, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -117035,7 +117015,7 @@ sent(8042, Result) :-
 		   Result).
 sent(8043, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(magnifiquement, adv-adv, magnifiquement, [dl(1, s, s)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
@@ -117062,7 +117042,7 @@ sent(8045, Result) :-
 		   Result).
 sent(8046, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(démantèle,
 			v-ver:pres,
 			démanteler,
@@ -117073,7 +117053,7 @@ sent(8046, Result) :-
 		   Result).
 sent(8047, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -119554,7 +119534,7 @@ sent(8252, Result) :-
 		   Result).
 sent(8253, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(gratte, v-ver:pres, gratter, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(ventre, nc-nom, ventre, [n-1]),
@@ -119565,7 +119545,7 @@ sent(8253, Result) :-
 		   Result).
 sent(8254, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(caresse, v-ver:pres, caresser, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(ventre, nc-nom, ventre, [n-1]),
@@ -119576,7 +119556,7 @@ sent(8254, Result) :-
 		   Result).
 sent(8255, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(gratte, v-ver:pres, gratter, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(ventre, nc-nom, ventre, [n-1]),
@@ -119598,7 +119578,7 @@ sent(8256, Result) :-
 		   Result).
 sent(8257, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(caresse, v-ver:pres, caresser, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(ventre, nc-nom, ventre, [n-1]),
@@ -122349,7 +122329,7 @@ sent(8508, Result) :-
 		   Result).
 sent(8509, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(épluche, v-ver:pres, éplucher, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(banane, nc-nom, banane, [n-1])
@@ -122357,7 +122337,7 @@ sent(8509, Result) :-
 		   Result).
 sent(8510, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(enlève, v-ver:pres, enlever, [dr(0, dl(0, np, s), np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(peau, nc-nom, peau, [n-1]),
@@ -122368,7 +122348,7 @@ sent(8510, Result) :-
 		   Result).
 sent(8511, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(épluche, v-ver:pres, éplucher, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(banane, nc-nom, banane, [n-1])
@@ -122401,7 +122381,7 @@ sent(8513, Result) :-
 		   Result).
 sent(8514, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(enlève, v-ver:pres, enlever, [dr(0, dl(0, np, s), np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(peau, nc-nom, peau, [n-1]),
@@ -122437,7 +122417,7 @@ sent(8516, Result) :-
 		   Result).
 sent(8517, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(épluche, v-ver:pres, éplucher, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(banane, nc-nom, banane, [n-1])
@@ -122469,7 +122449,7 @@ sent(8519, Result) :-
 		   Result).
 sent(8520, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(épluche, v-ver:pres, éplucher, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(banane, nc-nom, banane, [n-1])
@@ -122486,7 +122466,7 @@ sent(8521, Result) :-
 		   Result).
 sent(8522, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(épluche, v-ver:pres, éplucher, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(banane, nc-nom, banane, [n-1])
@@ -122882,7 +122862,7 @@ sent(8564, Result) :-
 		   Result).
 sent(8565, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -122906,7 +122886,7 @@ sent(8566, Result) :-
 		   Result).
 sent(8567, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -122968,7 +122948,7 @@ sent(8572, Result) :-
 		   Result).
 sent(8573, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -123005,7 +122985,7 @@ sent(8575, Result) :-
 		   Result).
 sent(8576, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -123023,7 +123003,7 @@ sent(8577, Result) :-
 		   Result).
 sent(8578, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -129977,7 +129957,7 @@ sent(9112, Result) :-
 		   Result).
 sent(9113, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(perce, v-ver:pres, percer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(trou, nc-nom, trou, [n-1]),
@@ -129994,7 +129974,7 @@ sent(9113, Result) :-
 		   Result).
 sent(9114, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait, v-ver:pres, faire, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(trou, nc-nom, trou, [n-1]),
@@ -130028,7 +130008,7 @@ sent(9115, Result) :-
 		   Result).
 sent(9116, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(perce, v-ver:pres, percer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(trou, nc-nom, trou, [n-1]),
@@ -130059,7 +130039,7 @@ sent(9117, Result) :-
 		   Result).
 sent(9118, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait, v-ver:pres, faire, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(trou, nc-nom, trou, [n-1]),
@@ -130121,7 +130101,7 @@ sent(9121, Result) :-
 		   Result).
 sent(9122, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(perce, v-ver:pres, percer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(trou, nc-nom, trou, [n-1]),
@@ -130138,7 +130118,7 @@ sent(9122, Result) :-
 		   Result).
 sent(9123, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(perce, v-ver:pres, percer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(trou, nc-nom, trou, [n-1]),
@@ -130190,7 +130170,7 @@ sent(9125, Result) :-
 		   Result).
 sent(9126, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(perce, v-ver:pres, percer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(trou, nc-nom, trou, [n-1]),
@@ -130207,7 +130187,7 @@ sent(9126, Result) :-
 		   Result).
 sent(9127, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(perce, v-ver:pres, percer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(trou, nc-nom, trou, [n-1]),
@@ -136725,7 +136705,7 @@ sent(9600, Result) :-
 		   Result).
 sent(9601, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(met,
 			v-ver:pres,
 			mettre,
@@ -136739,7 +136719,7 @@ sent(9601, Result) :-
 		   Result).
 sent(9602, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(met,
 			v-ver:pres,
 			mettre,
@@ -136753,7 +136733,7 @@ sent(9602, Result) :-
 		   Result).
 sent(9603, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(met,
 			v-ver:pres,
 			mettre,
@@ -136767,7 +136747,7 @@ sent(9603, Result) :-
 		   Result).
 sent(9604, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(ne, adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
 		     si(met,
 			v-ver:pres,
@@ -136783,7 +136763,7 @@ sent(9604, Result) :-
 		   Result).
 sent(9605, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(met,
 			v-ver:pres,
 			mettre,
@@ -136831,7 +136811,7 @@ sent(9607, Result) :-
 		   Result).
 sent(9608, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(ne, adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
 		     si(met,
 			v-ver:pres,
@@ -136864,7 +136844,7 @@ sent(9609, Result) :-
 		   Result).
 sent(9610, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(met,
 			v-ver:pres,
 			mettre,
@@ -136897,7 +136877,7 @@ sent(9611, Result) :-
 		   Result).
 sent(9612, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(met,
 			v-ver:pres,
 			mettre,
@@ -136928,7 +136908,7 @@ sent(9613, Result) :-
 		   Result).
 sent(9614, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(met,
 			v-ver:pres,
 			mettre,
@@ -137036,9 +137016,9 @@ sent(9624, Result) :-
 		     si(officier, nc-nom, officier, [n-1]),
 		     si(militaire, adj-adj, militaire, [dl(0, n, n)-1]),
 		     si('n\'', adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
-		     si(aboie, v-ver:pres, aboyer, [dr(0, dl(0, np, s), pp)-1]),
+		     si(aboie, v-ver:pres, aboyer, [dl(0, np, s)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1,s,s), np)-1]),
 		     si(les, det-det:art, les, [dr(0, np, n)-1]),
 		     si(recrues, nc-nom, recrue, [n-1])
 		   ],
@@ -137099,9 +137079,9 @@ sent(9630, Result) :-
 		     si(officier, nc-nom, officier, [n-1]),
 		     si(militaire, adj-adj, militaire, [dl(0, n, n)-1]),
 		     si('n\'', adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
-		     si(aboie, v-ver:pres, aboyer, [dr(0, dl(0, np, s), pp)-1]),
+		     si(aboie, v-ver:pres, aboyer, [dl(0, np, s)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1,s,s), np)-1]),
 		     si(les, det-det:art, les, [dr(0, np, n)-1]),
 		     si(recrues, nc-nom, recrue, [n-1])
 		   ],
@@ -138089,7 +138069,7 @@ sent(9698, Result) :-
 		   Result).
 sent(9699, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tient, v-ver:pres, tenir, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(hérisson, nc-nom, hérisson, [n-1])
@@ -138097,7 +138077,7 @@ sent(9699, Result) :-
 		   Result).
 sent(9700, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tient, v-ver:pres, tenir, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(petit, adj-adj, petit, [dr(0, n, n)-1]),
@@ -138115,7 +138095,7 @@ sent(9701, Result) :-
 		   Result).
 sent(9702, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tient, v-ver:pres, tenir, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(hérisson, nc-nom, hérisson, [n-1])
@@ -138138,7 +138118,7 @@ sent(9703, Result) :-
 		   Result).
 sent(9704, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tient, v-ver:pres, tenir, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(petit, adj-adj, petit, [dr(0, n, n)-1]),
@@ -138182,7 +138162,7 @@ sent(9707, Result) :-
 		   Result).
 sent(9708, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tient, v-ver:pres, tenir, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(hérisson, nc-nom, hérisson, [n-1])
@@ -138203,7 +138183,7 @@ sent(9709, Result) :-
 		   Result).
 sent(9710, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tient, v-ver:pres, tenir, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(hérisson, nc-nom, hérisson, [n-1])
@@ -138226,7 +138206,7 @@ sent(9711, Result) :-
 		   Result).
 sent(9712, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tient, v-ver:pres, tenir, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(hérisson, nc-nom, hérisson, [n-1])
@@ -145102,7 +145082,7 @@ sent(10240, Result) :-
 		   Result).
 sent(10241, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(avec, p-prp, avec, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -145111,7 +145091,7 @@ sent(10241, Result) :-
 		   Result).
 sent(10242, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(avec, p-prp, avec, [dr(0, pp, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -145130,7 +145110,7 @@ sent(10243, Result) :-
 		   Result).
 sent(10244, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(avec, p-prp, avec, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -145139,7 +145119,7 @@ sent(10244, Result) :-
 		   Result).
 sent(10245, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(avec, p-prp, avec, [dr(0, pp, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -145178,7 +145158,7 @@ sent(10248, Result) :-
 		   Result).
 sent(10249, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(avec, p-prp, avec, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -145214,7 +145194,7 @@ sent(10251, Result) :-
 		   Result).
 sent(10252, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(avec, p-prp, avec, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -145233,7 +145213,7 @@ sent(10253, Result) :-
 		   Result).
 sent(10254, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(avec, p-prp, avec, [dr(0, pp, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -145434,7 +145414,7 @@ sent(10272, Result) :-
 		   Result).
 sent(10273, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(plie, v-ver:pres, plier, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(morceau, nc-nom, morceau, [n-1]),
@@ -145444,7 +145424,7 @@ sent(10273, Result) :-
 		   Result).
 sent(10274, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(plie, v-ver:pres, plier, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(morceau, nc-nom, morceau, [n-1]),
@@ -145454,7 +145434,7 @@ sent(10274, Result) :-
 		   Result).
 sent(10275, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(plie, v-ver:pres, plier, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(morceau, nc-nom, morceau, [n-1]),
@@ -145475,7 +145455,7 @@ sent(10276, Result) :-
 		   Result).
 sent(10277, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(plie, v-ver:pres, plier, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(morceau, nc-nom, morceau, [n-1]),
@@ -145518,7 +145498,7 @@ sent(10280, Result) :-
 		   Result).
 sent(10281, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(plie, v-ver:pres, plier, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(morceau, nc-nom, morceau, [n-1]),
@@ -145537,7 +145517,7 @@ sent(10282, Result) :-
 		   Result).
 sent(10283, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(plie, v-ver:pres, plier, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(morceau, nc-nom, morceau, [n-1]),
@@ -145571,7 +145551,7 @@ sent(10285, Result) :-
 		   Result).
 sent(10286, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(plie, v-ver:pres, plier, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(morceau, nc-nom, morceau, [n-1]),
@@ -146819,7 +146799,7 @@ sent(10381, Result) :-
 		   Result).
 sent(10382, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -146827,7 +146807,7 @@ sent(10382, Result) :-
 		   Result).
 sent(10383, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -146835,7 +146815,7 @@ sent(10383, Result) :-
 		   Result).
 sent(10384, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-nam, 'Quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(ne, adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
@@ -146870,7 +146850,7 @@ sent(10386, Result) :-
 		   Result).
 sent(10387, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-nam, 'Quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(ne, adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
@@ -146889,7 +146869,7 @@ sent(10388, Result) :-
 		   Result).
 sent(10389, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -146914,7 +146894,7 @@ sent(10390, Result) :-
 		   Result).
 sent(10391, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -146933,7 +146913,7 @@ sent(10392, Result) :-
 		   Result).
 sent(10393, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, pp_de, n)-1]),
 		     si(piano, nc-nom, piano, [n-1])
@@ -149417,7 +149397,7 @@ sent(10576, Result) :-
 		   Result).
 sent(10577, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(vérifie, v-ver:pres, vérifier, [dr(0, dl(0, np, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(email, nc-nom, 'e-mail', [n-1])
@@ -149425,7 +149405,7 @@ sent(10577, Result) :-
 		   Result).
 sent(10578, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(lit, v-ver:pres, lire, [dr(0, dl(0, np, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(email, nc-nom, 'e-mail', [n-1])
@@ -149433,7 +149413,7 @@ sent(10578, Result) :-
 		   Result).
 sent(10579, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(lit, v-ver:pres, lire, [dr(0, dl(0, np, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(email, nc-nom, 'e-mail', [n-1])
@@ -149441,7 +149421,7 @@ sent(10579, Result) :-
 		   Result).
 sent(10580, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(ne, adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
 		     si(lit, v-ver:pres, lire, [dr(0, dl(0, np, s), np)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
@@ -149464,7 +149444,7 @@ sent(10581, Result) :-
 		   Result).
 sent(10582, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-nam, 'Quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(vérifie, v-ver:pres, vérifier, [dr(0, dl(0, np, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(email, nc-nom, 'e-mail', [n-1])
@@ -149472,7 +149452,7 @@ sent(10582, Result) :-
 		   Result).
 sent(10583, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(ne, adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
 		     si(lit, v-ver:pres, lire, [dr(0, dl(0, np, s), np)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
@@ -149495,7 +149475,7 @@ sent(10584, Result) :-
 		   Result).
 sent(10585, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(lit, v-ver:pres, lire, [dr(0, dl(0, np, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(email, nc-nom, 'e-mail', [n-1])
@@ -149526,7 +149506,7 @@ sent(10587, Result) :-
 		   Result).
 sent(10588, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(lit, v-ver:pres, lire, [dr(0, dl(0, np, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(email, nc-nom, 'e-mail', [n-1])
@@ -149547,7 +149527,7 @@ sent(10589, Result) :-
 		   Result).
 sent(10590, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(lit, v-ver:pres, lire, [dr(0, dl(0, np, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(email, nc-nom, 'e-mail', [n-1])
@@ -154553,7 +154533,7 @@ sent(11000, Result) :-
 		   Result).
 sent(11001, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(pot, nc-nom, pot, [n-1]),
@@ -154601,7 +154581,7 @@ sent(11003, Result) :-
 		   Result).
 sent(11004, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(pot, nc-nom, pot, [n-1]),
@@ -154614,7 +154594,7 @@ sent(11004, Result) :-
 		   Result).
 sent(11005, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
 		     si(piment, nc-nom, piment, [n-1]),
@@ -154625,7 +154605,7 @@ sent(11005, Result) :-
 		   Result).
 sent(11006, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue,
 			v-ver:pres,
 			remuer,
@@ -154639,7 +154619,7 @@ sent(11006, Result) :-
 		   Result).
 sent(11007, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si('n\'', adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
 		     si(agite, v-ver:pres, agiter, [dr(0, dl(0, np, s), np)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
@@ -154652,7 +154632,7 @@ sent(11007, Result) :-
 		   Result).
 sent(11008, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
 		     si(piment, nc-nom, piment, [n-1]),
@@ -154663,7 +154643,7 @@ sent(11008, Result) :-
 		   Result).
 sent(11009, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(pot, nc-nom, pot, [n-1]),
@@ -154676,7 +154656,7 @@ sent(11009, Result) :-
 		   Result).
 sent(11010, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue,
 			v-ver:pres,
 			remuer,
@@ -154690,7 +154670,7 @@ sent(11010, Result) :-
 		   Result).
 sent(11011, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(pot, nc-nom, pot, [n-1]),
@@ -154703,7 +154683,7 @@ sent(11011, Result) :-
 		   Result).
 sent(11012, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si('n\'', adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
 		     si(agite, v-ver:pres, agiter, [dr(0, dl(0, np, s), np)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
@@ -154716,7 +154696,7 @@ sent(11012, Result) :-
 		   Result).
 sent(11013, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
 		     si(piment, nc-nom, piment, [n-1]),
@@ -154762,7 +154742,7 @@ sent(11015, Result) :-
 		   Result).
 sent(11016, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
 		     si(piment, nc-nom, piment, [n-1]),
@@ -154773,7 +154753,7 @@ sent(11016, Result) :-
 		   Result).
 sent(11017, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
 		     si(piment, nc-nom, piment, [n-1]),
@@ -154784,7 +154764,7 @@ sent(11017, Result) :-
 		   Result).
 sent(11018, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(pot, nc-nom, pot, [n-1]),
@@ -159276,7 +159256,7 @@ sent(11406, Result) :-
 		   Result).
 sent(11407, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
 		     si(nouilles, nc-nom, nouille, [n-1]),
@@ -159299,7 +159279,7 @@ sent(11408, Result) :-
 		   Result).
 sent(11409, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
 		     si(nouilles, nc-nom, nouille, [n-1]),
@@ -159338,7 +159318,7 @@ sent(11411, Result) :-
 		   Result).
 sent(11412, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(de, det-prp, de, [dr(0, np, np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
@@ -159378,7 +159358,7 @@ sent(11414, Result) :-
 		   Result).
 sent(11415, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
 		     si(nouilles, nc-nom, nouille, [n-1]),
@@ -159409,7 +159389,7 @@ sent(11416, Result) :-
 		   Result).
 sent(11417, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
 		     si(nouilles, nc-nom, nouille, [n-1]),
@@ -159452,7 +159432,7 @@ sent(11419, Result) :-
 		   Result).
 sent(11420, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(remue, v-ver:pres, remuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
 		     si(nouilles, nc-nom, nouille, [n-1]),
@@ -161250,7 +161230,7 @@ sent(11564, Result) :-
 		   Result).
 sent(11565, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(verse,
 			v-ver:pres,
 			verser,
@@ -161264,7 +161244,7 @@ sent(11565, Result) :-
 		   Result).
 sent(11566, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(ajoute,
 			v-ver:pres,
 			ajouter,
@@ -161293,7 +161273,7 @@ sent(11567, Result) :-
 		   Result).
 sent(11568, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(verse,
 			v-ver:pres,
 			verser,
@@ -161322,7 +161302,7 @@ sent(11569, Result) :-
 		   Result).
 sent(11570, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(ajoute,
 			v-ver:pres,
 			ajouter,
@@ -161386,7 +161366,7 @@ sent(11573, Result) :-
 		   Result).
 sent(11574, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(verse,
 			v-ver:pres,
 			verser,
@@ -161400,7 +161380,7 @@ sent(11574, Result) :-
 		   Result).
 sent(11575, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(verse,
 			v-ver:pres,
 			verser,
@@ -161441,7 +161421,7 @@ sent(11577, Result) :-
 		   Result).
 sent(11578, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(verse,
 			v-ver:pres,
 			verser,
@@ -197933,7 +197913,7 @@ sent(13546, Result) :-
 		   Result).
 sent(13547, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(saute, v-ver:pres, sauter, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
@@ -197945,7 +197925,7 @@ sent(13547, Result) :-
 		   Result).
 sent(13548, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(saute, v-ver:pres, sauter, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
@@ -197977,7 +197957,7 @@ sent(13549, Result) :-
 		   Result).
 sent(13550, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(saute, v-ver:pres, sauter, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
@@ -198003,7 +197983,7 @@ sent(13551, Result) :-
 		   Result).
 sent(13552, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(saute, v-ver:pres, sauter, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
@@ -198063,7 +198043,7 @@ sent(13555, Result) :-
 		   Result).
 sent(13556, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(saute, v-ver:pres, sauter, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
@@ -198095,7 +198075,7 @@ sent(13557, Result) :-
 		   Result).
 sent(13558, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(saute, v-ver:pres, sauter, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
@@ -198121,7 +198101,7 @@ sent(13559, Result) :-
 		   Result).
 sent(13560, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(saute, v-ver:pres, sauter, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
@@ -212966,7 +212946,7 @@ sent(14423, Result) :-
 		   Result).
 sent(14424, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(se, clr-pro:per, se, [cl_r-1]),
 		     si(tient,
 			v-ver:pres,
@@ -213272,7 +213252,7 @@ sent(14439, Result) :-
 		   Result).
 sent(14440, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(se, clr-pro:per, se, [cl_r-1]),
 		     si(tient,
 			v-ver:pres,
@@ -284622,7 +284602,7 @@ sent(18417, Result) :-
 		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1]),
 		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si('État', nc-nam, 'État', [n-1]),
+		     si('État', nc-nom, 'État', [n-1]),
 		     si(américain, adj-adj, américain, [dl(0, n, n)-1])
 		   ],
 		   Result).
@@ -284643,7 +284623,7 @@ sent(18418, Result) :-
 		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1]),
 		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si('État', nc-nam, 'État', [n-1]),
+		     si('État', nc-nom, 'État', [n-1]),
 		     si(américain, adj-adj, américain, [dl(0, n, n)-1])
 		   ],
 		   Result).
@@ -284664,7 +284644,7 @@ sent(18419, Result) :-
 		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1]),
 		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si('État', nc-nam, 'État', [n-1]),
+		     si('État', nc-nom, 'État', [n-1]),
 		     si(européen, adj-adj, européen, [dl(0, n, n)-1])
 		   ],
 		   Result).
@@ -284685,7 +284665,7 @@ sent(18420, Result) :-
 		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1]),
 		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si('État', nc-nam, 'État', [n-1]),
+		     si('État', nc-nom, 'État', [n-1]),
 		     si(américain, adj-adj, américain, [dl(0, n, n)-1])
 		   ],
 		   Result).
@@ -284706,7 +284686,7 @@ sent(18421, Result) :-
 		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1]),
 		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si('État', nc-nam, 'État', [n-1]),
+		     si('État', nc-nom, 'État', [n-1]),
 		     si(américain, adj-adj, américain, [dl(0, n, n)-1])
 		   ],
 		   Result).
@@ -284775,7 +284755,7 @@ sent(18424, Result) :-
 		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1]),
 		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si('État', nc-nam, 'État', [n-1]),
+		     si('État', nc-nom, 'État', [n-1]),
 		     si(européen, adj-adj, européen, [dl(0, n, n)-1])
 		   ],
 		   Result).
@@ -284796,7 +284776,7 @@ sent(18425, Result) :-
 		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1]),
 		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si('État', nc-nam, 'État', [n-1]),
+		     si('État', nc-nom, 'État', [n-1]),
 		     si(américain, adj-adj, américain, [dl(0, n, n)-1])
 		   ],
 		   Result).
@@ -284842,7 +284822,7 @@ sent(18427, Result) :-
 		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1]),
 		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si('État', nc-nam, 'État', [n-1]),
+		     si('État', nc-nom, 'État', [n-1]),
 		     si(américain, adj-adj, américain, [dl(0, n, n)-1])
 		   ],
 		   Result).
@@ -284913,7 +284893,7 @@ sent(18430, Result) :-
 		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1]),
 		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si('État', nc-nam, 'État', [n-1]),
+		     si('État', nc-nom, 'État', [n-1]),
 		     si(américain, adj-adj, américain, [dl(0, n, n)-1])
 		   ],
 		   Result).
@@ -298992,7 +298972,7 @@ sent(19212, Result) :-
 		   Result).
 sent(19213, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), pp)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
@@ -299033,14 +299013,12 @@ sent(19216, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1]),
-		     si(bowling, nc-nom, bowling, [dr(0, dl(0, n, n), np)-1]),
+		     si(lance, v-ver:pres, lancer, [dr(0, dl(0, np, s), np)-1]),
 		     si(deux, det-num, deux, [dr(0, np, n)-1]),
 		     si(oeufs, nc-nom, oeuf, [n-1]),
-		     si(à, p-prp, à, [dr(0, dl(0, n, n), np)-1]),
-		     si(une, det-det:art, un, [dr(0, np, n)-1]),
-		     si(danseuse, nc-nom, danseur, [n-1]),
-		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(pause, nc-nom, pause, [n-1])
+		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
+		     si(un, det-det:art, un, [dr(0, np, n)-1]),
+		     si(breakdancer, et-nom, breakdancer, [n-1])
 		   ],
 		   Result).
 sent(19217, Result) :-
@@ -302450,14 +302428,10 @@ sent(19435, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(personne, nc-nom, personne, [n-1]),
-		     si(est,
-			v-ver:pres,
-			être,
-			[dr(0, dl(0, np, s), dl(0, np, s_ppart))-1]),
-		     si(bowling, nc-nom, bowling, [dr(0, dl(0, np, s_ppart), np)-1]),
+		     si(lance, v-ver:pres, lancer, [dr(0, dl(0, np, s), np)-1]),
 		     si(les, det-det:art, les, [dr(0, np, n)-1]),
 		     si(ingrédients, nc-nom, ingrédient, [n-1]),
-		     si(à, p-prp, à, [dr(0, dl(0, n, n), np)-1]),
+		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
 		     si(au, p+d-prp:det, au, [dr(0, dl(0, n, n), n)-1]),
@@ -303154,7 +303128,7 @@ sent(19475, Result) :-
 		   Result).
 sent(19476, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(joue, v-ver:pres, jouer, [dr(0, dl(0, np, s), np)-1]),
 		     si(de, p-prp, de, [dr(0, np, np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
@@ -303580,7 +303554,7 @@ sent(19505, Result) :-
 		   Result).
 sent(19506, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(frappe,
 			v-ver:pres,
 			frapper,
@@ -303717,7 +303691,7 @@ sent(19512, Result) :-
 		   Result).
 sent(19513, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(verse,
 			v-ver:pres,
 			verser,
@@ -304379,11 +304353,11 @@ sent(19555, Result) :-
 		     si(chaton, nc-nom, chaton, [n-1]),
 		     si(boit, v-ver:pres, boire, [dr(0, dl(0, np, s), np)-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), n)-1]),
-		     si(impatience, nc-nom, impatience, [n-1]),
+		     si(appétit, nc-nom, appétit, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
 		     si(lait, nc-nom, lait, [n-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
-		     si(le, det-det:art, le, [dr(0, np, n)-1]),
+		     si('d\'', p-prp, de, [dr(0, dl(1, s, s), np)-1]),
+		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(bol, nc-nom, bol, [n-1])
 		   ],
 		   Result).
@@ -304750,7 +304724,7 @@ sent(19580, Result) :-
 		   Result).
 sent(19581, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(tient, v-ver:pres, tenir, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(hérisson, nc-nom, hérisson, [n-1])
@@ -304854,7 +304828,7 @@ sent(19588, Result) :-
 		   Result).
 sent(19589, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(coupe, v-ver:pres, couper, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1])
@@ -306166,7 +306140,7 @@ sent(19673, Result) :-
 		   Result).
 sent(19674, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(fait,
 			v-ver:pres,
 			faire,
