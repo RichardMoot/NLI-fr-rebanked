@@ -225725,7 +225725,7 @@ sent(15087, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -225740,7 +225740,7 @@ sent(15088, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -225774,7 +225774,7 @@ sent(15090, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -225803,7 +225803,7 @@ sent(15092, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -225865,7 +225865,7 @@ sent(15096, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -225898,7 +225898,7 @@ sent(15098, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -225913,7 +225913,7 @@ sent(15099, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
@@ -225942,7 +225942,7 @@ sent(15101, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
 		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
