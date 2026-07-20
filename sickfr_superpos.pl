@@ -15137,7 +15137,6 @@ sent(895, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(garçon, nc-nom, garçon, [n-1]),
-		     si(surfe, v-ver:pres, surfer, [dl(0, n, n)-1]),
 		     si(fait, v-ver:pres, faire, [dr(0, dl(0, np, s), np)-1]),
 		     si(du, p+d-prp:det, du, [dr(0, np, n)-1]),
 		     si(surf, nc-nom, surf, [n-1]),
@@ -47602,7 +47601,7 @@ sent(2755, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
-		     si(crie, v-ver:pres, crier, [dl(0, n, n)-1])
+		     si(crie, v-ver:pres, crier, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(2756, Result) :-
@@ -47630,7 +47629,7 @@ sent(2758, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
-		     si(crie, v-ver:pres, crier, [dl(0, n, n)-1])
+		     si(crie, v-ver:pres, crier, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(2759, Result) :-
@@ -47680,7 +47679,7 @@ sent(2764, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
-		     si(crie, v-ver:pres, crier, [dl(0, n, n)-1])
+		     si(crie, v-ver:pres, crier, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(2765, Result) :-
@@ -47698,7 +47697,7 @@ sent(2766, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
-		     si(crie, v-ver:pres, crier, [dl(0, n, n)-1])
+		     si(crie, v-ver:pres, crier, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(2767, Result) :-
@@ -47712,7 +47711,7 @@ sent(2768, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
-		     si(crie, v-ver:pres, crier, [dl(0, n, n)-1])
+		     si(crie, v-ver:pres, crier, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(2769, Result) :-
@@ -48907,7 +48906,7 @@ sent(2875, Result) :-
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(bébé, nc-nom, bébé, [n-1]),
 		     si(heureux, adj-adj, heureux, [dl(0, n, n)-1]),
-		     si(rit, v-ver:pres, rire, [dl(0, n, n)-1])
+		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(2876, Result) :-
@@ -85164,7 +85163,7 @@ sent(5547, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(5548, Result) :-
@@ -85203,7 +85202,7 @@ sent(5552, Result) :-
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
 		     si(animé, vpp-ver:pper, animer, [dl(0, n, n)-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(5553, Result) :-
@@ -85233,7 +85232,7 @@ sent(5556, Result) :-
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
 		     si(animé, vpp-ver:pper, animer, [dl(0, n, n)-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(5557, Result) :-
@@ -85263,7 +85262,7 @@ sent(5560, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(5561, Result) :-
@@ -105216,21 +105215,21 @@ sent(7093, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(poisson, nc-nom, poisson, [n-1]),
-		     si(nage, v-ver:pres, nager, [dl(0, n, n)-1])
+		     si(nage, v-ver:pres, nager, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(7094, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(poisson, nc-nom, poisson, [n-1]),
-		     si(nage, v-ver:pres, nager, [dl(0, n, n)-1])
+		     si(nage, v-ver:pres, nager, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(7095, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(poisson, nc-nom, poisson, [n-1]),
-		     si(nage, v-ver:pres, nager, [dl(0, n, n)-1])
+		     si(nage, v-ver:pres, nager, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(7096, Result) :-
@@ -105284,7 +105283,7 @@ sent(7102, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(poisson, nc-nom, poisson, [n-1]),
-		     si(nage, v-ver:pres, nager, [dl(0, n, n)-1])
+		     si(nage, v-ver:pres, nager, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(7103, Result) :-
@@ -105299,7 +105298,7 @@ sent(7104, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(poisson, nc-nom, poisson, [n-1]),
-		     si(nage, v-ver:pres, nager, [dl(0, n, n)-1])
+		     si(nage, v-ver:pres, nager, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(7105, Result) :-
@@ -105313,7 +105312,7 @@ sent(7106, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(poisson, nc-nom, poisson, [n-1]),
-		     si(nage, v-ver:pres, nager, [dl(0, n, n)-1])
+		     si(nage, v-ver:pres, nager, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(7107, Result) :-
@@ -105343,7 +105342,7 @@ sent(7110, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(poisson, nc-nom, poisson, [n-1]),
-		     si(nage, v-ver:pres, nager, [dl(0, n, n)-1])
+		     si(nage, v-ver:pres, nager, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(7111, Result) :-
@@ -121468,14 +121467,14 @@ sent(8413, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8414, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8415, Result) :-
@@ -121489,28 +121488,28 @@ sent(8416, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8417, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8418, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8419, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8420, Result) :-
@@ -121530,21 +121529,21 @@ sent(8421, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8422, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8423, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8424, Result) :-
@@ -121564,7 +121563,7 @@ sent(8425, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8426, Result) :-
@@ -121578,14 +121577,14 @@ sent(8427, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8428, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(décolle, v-ver:pres, décoller, [dl(0, n, n)-1])
+		     si(décolle, v-ver:pres, décoller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8429, Result) :-
@@ -122532,14 +122531,14 @@ sent(8527, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(jet, nc-nom, jet, [n-1]),
-		     si(vole, v-ver:pres, voler, [dl(0, n, n)-1])
+		     si(vole, v-ver:pres, voler, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8528, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(vole, v-ver:pres, voler, [dl(0, n, n)-1])
+		     si(vole, v-ver:pres, voler, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8529, Result) :-
@@ -122555,14 +122554,14 @@ sent(8530, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(jet, nc-nom, jet, [n-1]),
-		     si(vole, v-ver:pres, voler, [dl(0, n, n)-1])
+		     si(vole, v-ver:pres, voler, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8531, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(avion, nc-nom, avion, [n-1]),
-		     si(vole, v-ver:pres, voler, [dl(0, n, n)-1])
+		     si(vole, v-ver:pres, voler, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8532, Result) :-
@@ -122600,14 +122599,14 @@ sent(8536, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(jet, nc-nom, jet, [n-1]),
-		     si(vole, v-ver:pres, voler, [dl(0, n, n)-1])
+		     si(vole, v-ver:pres, voler, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8537, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(jet, nc-nom, jet, [n-1]),
-		     si(vole, v-ver:pres, voler, [dl(0, n, n)-1])
+		     si(vole, v-ver:pres, voler, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8538, Result) :-
@@ -122627,7 +122626,7 @@ sent(8539, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(jet, nc-nom, jet, [n-1]),
-		     si(vole, v-ver:pres, voler, [dl(0, n, n)-1])
+		     si(vole, v-ver:pres, voler, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(8540, Result) :-
@@ -124800,8 +124799,8 @@ sent(8711, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(rhinocéros, nc-nom, rhinocéros, [n-1]),
-		     si(broute, v-ver:pres, brouter, [dl(0, n, n)-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(0, n, n), np)-1]),
+		     si(broute, v-ver:pres, brouter, [dl(0, np, s)-1]),
+		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(champ, nc-nom, champ, [n-1])
 		   ],
@@ -124810,8 +124809,8 @@ sent(8712, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1]),
-		     si(broute, v-ver:pres, brouter, [dl(0, n, n)-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(0, n, n), np)-1]),
+		     si(broute, v-ver:pres, brouter, [dl(0, np, s)-1]),
+		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(champ, nc-nom, champ, [n-1])
 		   ],
@@ -124820,8 +124819,8 @@ sent(8713, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(rhinocéros, nc-nom, rhinocéros, [n-1]),
-		     si(broute, v-ver:pres, brouter, [dl(0, n, n)-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(0, n, n), np)-1]),
+		     si(broute, v-ver:pres, brouter, [dl(0, np, s)-1]),
+		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(champ, nc-nom, champ, [n-1])
 		   ],
@@ -124910,8 +124909,8 @@ sent(8720, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(rhinocéros, nc-nom, rhinocéros, [n-1]),
-		     si(broute, v-ver:pres, brouter, [dl(0, n, n)-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(0, n, n), np)-1]),
+		     si(broute, v-ver:pres, brouter, [dl(0, np, s)-1]),
+		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(champ, nc-nom, champ, [n-1])
 		   ],
@@ -124920,8 +124919,8 @@ sent(8721, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(rhinocéros, nc-nom, rhinocéros, [n-1]),
-		     si(broute, v-ver:pres, brouter, [dl(0, n, n)-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(0, n, n), np)-1]),
+		     si(broute, v-ver:pres, brouter, [dl(0, np, s)-1]),
+		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(champ, nc-nom, champ, [n-1])
 		   ],
@@ -124952,8 +124951,8 @@ sent(8724, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(animal, nc-nom, animal, [n-1]),
-		     si(broute, v-ver:pres, brouter, [dl(0, n, n)-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(0, n, n), np)-1]),
+		     si(broute, v-ver:pres, brouter, [dl(0, np, s)-1]),
+		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(champ, nc-nom, champ, [n-1])
 		   ],
@@ -124986,8 +124985,8 @@ sent(8727, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(rhinocéros, nc-nom, rhinocéros, [n-1]),
-		     si(broute, v-ver:pres, brouter, [dl(0, n, n)-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(0, n, n), np)-1]),
+		     si(broute, v-ver:pres, brouter, [dl(0, np, s)-1]),
+		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(champ, nc-nom, champ, [n-1])
 		   ],
@@ -151900,7 +151899,7 @@ sent(10792, Result) :-
 		     si(groupe, nc-nom, groupe, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
 		     si(personnes, nc-nom, personne, [n-1]),
-		     si(marche, v-ver:pres, marcher, [dl(0, n, n)-1])
+		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(10793, Result) :-
@@ -151928,7 +151927,7 @@ sent(10795, Result) :-
 		     si(groupe, nc-nom, groupe, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
 		     si(personnes, nc-nom, personne, [n-1]),
-		     si(marche, v-ver:pres, marcher, [dl(0, n, n)-1])
+		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(10796, Result) :-
@@ -180147,7 +180146,7 @@ sent(12593, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(rit, v-ver:pres, rire, [dl(0, n, n)-1])
+		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(12594, Result) :-
@@ -180163,7 +180162,7 @@ sent(12594, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(rit, v-ver:pres, rire, [dl(0, n, n)-1])
+		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(12595, Result) :-
@@ -180179,7 +180178,7 @@ sent(12595, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(rit, v-ver:pres, rire, [dl(0, n, n)-1])
+		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(12596, Result) :-
@@ -180211,7 +180210,7 @@ sent(12597, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(rit, v-ver:pres, rire, [dl(0, n, n)-1])
+		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(12598, Result) :-
@@ -180262,7 +180261,7 @@ sent(12600, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(rit, v-ver:pres, rire, [dl(0, n, n)-1])
+		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(12601, Result) :-
@@ -180363,7 +180362,7 @@ sent(12606, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(rit, v-ver:pres, rire, [dl(0, n, n)-1])
+		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(12607, Result) :-
@@ -180379,7 +180378,7 @@ sent(12607, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(rit, v-ver:pres, rire, [dl(0, n, n)-1])
+		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(12608, Result) :-
@@ -180415,7 +180414,7 @@ sent(12609, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(rit, v-ver:pres, rire, [dl(0, n, n)-1])
+		     si(rit, v-ver:pres, rire, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(12610, Result) :-
@@ -225747,7 +225746,7 @@ sent(15087, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(sautillent, v-ver:pres, sautiller, [dl(0, n, n)-1])
+		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(15088, Result) :-
@@ -225762,7 +225761,7 @@ sent(15088, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(sautillent, v-ver:pres, sautiller, [dl(0, n, n)-1])
+		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(15089, Result) :-
@@ -225796,7 +225795,7 @@ sent(15090, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(sautillent, v-ver:pres, sautiller, [dl(0, n, n)-1])
+		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(15091, Result) :-
@@ -225825,7 +225824,7 @@ sent(15092, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(sautillent, v-ver:pres, sautiller, [dl(0, n, n)-1])
+		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(15093, Result) :-
@@ -225887,7 +225886,7 @@ sent(15096, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(sautillent, v-ver:pres, sautiller, [dl(0, n, n)-1])
+		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(15097, Result) :-
@@ -225920,7 +225919,7 @@ sent(15098, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(sautillent, v-ver:pres, sautiller, [dl(0, n, n)-1])
+		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(15099, Result) :-
@@ -225935,7 +225934,7 @@ sent(15099, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(sautillent, v-ver:pres, sautiller, [dl(0, n, n)-1])
+		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(15100, Result) :-
@@ -225964,7 +225963,7 @@ sent(15101, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(sautillent, v-ver:pres, sautiller, [dl(0, n, n)-1])
+		     si(sautillent, v-ver:pres, sautiller, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(15102, Result) :-
@@ -299391,7 +299390,7 @@ sent(19240, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(poisson, nc-nom, poisson, [n-1]),
-		     si(nage, v-ver:pres, nager, [dl(0, n, n)-1])
+		     si(nage, v-ver:pres, nager, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(19241, Result) :-
@@ -301438,7 +301437,7 @@ sent(19374, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1]),
-		     si(surfe, v-ver:pres, surfer, [dl(0, n, n)-1])
+		     si(surfe, v-ver:pres, surfer, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(19375, Result) :-
