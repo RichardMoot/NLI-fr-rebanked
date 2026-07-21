@@ -17235,7 +17235,7 @@ sent(1007, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
-		     si(dépose, v-ver:pres, déposer, [dr(0, dl(0, np, s), np)-1]),
+		     si(table, v-ver:pres, tabler, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(discussion, nc-nom, discussion, [n-1]),
 		     si(confortable, adj-adj, confortable, [dl(0, n, n)-1])
@@ -17695,7 +17695,7 @@ sent(1025, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, np, s), dl(0, np, s)), dl(0, np, s))-1]),
-		     si(dépose, v-ver:pres, déposer, [dr(0, dl(0, np, s), np)-1]),
+		     si(table, v-ver:pres, tabler, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(discussion, nc-nom, discussion, [n-1]),
 		     si(confortable, adj-adj, confortable, [dl(0, n, n)-1])
