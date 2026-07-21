@@ -95004,9 +95004,10 @@ sent(6273, Result) :-
 	prob_parse(
 		   [ si('L\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
-		     si(est, v-ver:pres, être, [dr(0, dl(0, np, s), np)-1]),
+		     si(fait, v-ver:pres, faire, [dr(0, dl(0, np, s), np)-1]),
 		     si(joyeusement, adv-adv, joyeusement, [dl(1, s, s)-1]),
-		     si(randonnée, nc-nom, randonnée, [np-1]),
+		     si(une, det-det:art, un, [dr(0, np, n)-1]),
+		     si(randonnée, nc-nom, randonnée, [n-1]),
 		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(les, det-det:art, les, [dr(0, np, n)-1]),
 		     si(bois, nc-nom, bois, [n-1])
@@ -95048,9 +95049,10 @@ sent(6277, Result) :-
 	prob_parse(
 		   [ si('L\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
-		     si(est, v-ver:pres, être, [dr(0, dl(0, np, s), np)-1]),
+		     si(fait, v-ver:pres, faire, [dr(0, dl(0, np, s), np)-1]),
 		     si(joyeusement, adv-adv, joyeusement, [dl(1, s, s)-1]),
-		     si(randonnée, nc-nom, randonnée, [np-1]),
+		     si(une, det-det:art, un, [dr(0, np, n)-1]),
+		     si(randonnée, nc-nom, randonnée, [n-1]),
 		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
 		     si(les, det-det:art, les, [dr(0, np, n)-1]),
 		     si(bois, nc-nom, bois, [n-1])
