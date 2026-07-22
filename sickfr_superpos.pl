@@ -1750,8 +1750,8 @@ sent(102, Result) :-
 		   Result).
 sent(103, Result) :-
 	prob_parse(
-		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
-		     si(enfants, nc-nom, enfant, [n-1]),
+		   [ si('Des', det-det:art, des, [dr(0, np, n)-1]),
+		     si(gamins, nc-nom, gamin, [n-1]),
 		     si(en, p-prp, en, [dr(0, dl(0, n, n), n)-1]),
 		     si(chemises, nc-nom, chemise, [n-1]),
 		     si(rouges, adj-adj, rouge, [dl(0, n, n)-1]),
@@ -75104,8 +75104,8 @@ sent(4769, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(coureurs, nc-nom, coureur, [n-1]),
-		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
+		     si(participent, v-ver:pres, participer, [dr(0, dl(0, np, s), pp_a)-1]),
+		     si(à, p-prp, à, [dr(0, pp_a, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(compétition, nc-nom, compétition, [n-1])
 		   ],
@@ -75286,8 +75286,8 @@ sent(4784, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(coureurs, nc-nom, coureur, [n-1]),
-		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
-		     si(dans, p-prp, dans, [dr(0, dl(1, s, s), np)-1]),
+		     si(participent, v-ver:pres, participer, [dr(0, dl(0, np, s), pp_a)-1]),
+		     si(à, p-prp, à, [dr(0, pp_a, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(compétition, nc-nom, compétition, [n-1])
 		   ],
@@ -106807,8 +106807,8 @@ sent(7221, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(coureurs, nc-nom, coureur, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -106831,8 +106831,8 @@ sent(7223, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(coureurs, nc-nom, coureur, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -106857,8 +106857,8 @@ sent(7225, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(coureurs, nc-nom, coureur, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -106867,8 +106867,8 @@ sent(7226, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(coureurs, nc-nom, coureur, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -106925,8 +106925,8 @@ sent(7231, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(coureurs, nc-nom, coureur, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -106953,8 +106953,8 @@ sent(7234, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(coureurs, nc-nom, coureur, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -106963,8 +106963,8 @@ sent(7235, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(coureurs, nc-nom, coureur, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -106990,8 +106990,8 @@ sent(7238, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(coureurs, nc-nom, coureur, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -202882,7 +202882,9 @@ sent(13819, Result) :-
 sent(13820, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
-		     si(rollerblader, nc-nom, rollerblader, [n-1]),
+		     si(adepte, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(effectue, v-ver:pres, effectuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tour, nc-nom, tour, [n-1]),
@@ -202894,7 +202896,7 @@ sent(13820, Result) :-
 sent(13821, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
-		     si(rollerblader, nc-nom, rollerblader, [n-1]),
+		     si(rollerblader, et-nom, rollerblader, [n-1]),
 		     si('n\'', adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
 		     si(effectue, v-ver:pres, effectuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
@@ -202908,7 +202910,9 @@ sent(13821, Result) :-
 sent(13822, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
-		     si(rollerblader, nc-nom, rollerblader, [n-1]),
+		     si(adepte, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(effectue, v-ver:pres, effectuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tour, nc-nom, tour, [n-1]),
@@ -202995,7 +202999,9 @@ sent(13826, Result) :-
 sent(13827, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
-		     si(rollerblader, nc-nom, rollerblader, [n-1]),
+		     si(adepte, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(effectue, v-ver:pres, effectuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tour, nc-nom, tour, [n-1]),
@@ -203030,7 +203036,7 @@ sent(13828, Result) :-
 sent(13829, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
-		     si(rollerblader, nc-nom, rollerblader, [n-1]),
+		     si(rollerblader, et-nom, rollerblader, [n-1]),
 		     si(effectue, v-ver:pres, effectuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tour, nc-nom, tour, [n-1]),
@@ -203096,8 +203102,10 @@ sent(13832, Result) :-
 		   Result).
 sent(13833, Result) :-
 	prob_parse(
-		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
-		     si(rollerblader, nc-nom, rollerblader, [n-1]),
+		   [ si('L\'', det-det:art, le, [dr(0, np, n)-1]),
+		     si(adepte, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si('n\'', adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
 		     si(effectue, v-ver:pres, effectuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
@@ -203128,7 +203136,9 @@ sent(13834, Result) :-
 sent(13835, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
-		     si(rollerblader, nc-nom, rollerblader, [n-1]),
+		     si(adepte, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(effectue, v-ver:pres, effectuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tour, nc-nom, tour, [n-1]),
@@ -247021,7 +247031,7 @@ sent(16301, Result) :-
 sent(16302, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
-		     si(enfants, nc-nom, enfant, [n-1]),
+		     si(gamins, nc-nom, gamin, [n-1]),
 		     si(sont,
 			v-ver:pres,
 			être,
@@ -247069,7 +247079,7 @@ sent(16303, Result) :-
 sent(16304, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
-		     si(enfants, nc-nom, enfant, [n-1]),
+		     si(gamins, nc-nom, gamin, [n-1]),
 		     si(ne, adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
 		     si(sont,
 			v-ver:pres,
@@ -247398,8 +247408,8 @@ sent(16319, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(chiens, nc-nom, chien, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -247408,8 +247418,8 @@ sent(16320, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(chiens, nc-nom, chien, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -247418,8 +247428,8 @@ sent(16321, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(chiens, nc-nom, chien, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -247485,8 +247495,8 @@ sent(16328, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(chiens, nc-nom, chien, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -247504,8 +247514,8 @@ sent(16330, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(chiens, nc-nom, chien, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -247523,8 +247533,8 @@ sent(16332, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(chiens, nc-nom, chien, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -247558,8 +247568,8 @@ sent(16335, Result) :-
 	prob_parse(
 		   [ si('Les', det-det:art, les, [dr(0, np, n)-1]),
 		     si(chiens, nc-nom, chien, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
 		   ],
@@ -259715,7 +259725,10 @@ sent(17004, Result) :-
 		   Result).
 sent(17005, Result) :-
 	prob_parse(
-		   [ si('Rollerbladers', npp-nam, 'Rollerbladers', [np-1]),
+		   [ si('Des', p-prp, des, [dr(0, np, n)-1]),
+		     si(adeptes, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(roulent, v-ver:pres, rouler, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), n)-1]),
 		     si(formation, nc-nom, formation, [n-1]),
@@ -259729,7 +259742,10 @@ sent(17005, Result) :-
 		   Result).
 sent(17006, Result) :-
 	prob_parse(
-		   [ si('Rollerbladers', npp-nam, 'Rollerbladers', [np-1]),
+		   [ si('Des', p-prp, des, [dr(0, np, n)-1]),
+		     si(adeptes, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(sont, v-ver:pres, être, [dr(0, dl(0, np, s), pp)-1]),
 		     si(en, p-prp, en, [dr(0, pp, n)-1]),
 		     si(cours, nc-nom, cours, [n-1]),
@@ -259746,7 +259762,10 @@ sent(17006, Result) :-
 		   Result).
 sent(17007, Result) :-
 	prob_parse(
-		   [ si('Rollerbladers', npp-nam, 'Rollerbladers', [np-1]),
+		   [ si('Des', p-prp, des, [dr(0, np, n)-1]),
+		     si(adeptes, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(roulent, v-ver:pres, rouler, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), n)-1]),
 		     si(formation, nc-nom, formation, [n-1]),
@@ -259774,7 +259793,10 @@ sent(17008, Result) :-
 		   Result).
 sent(17009, Result) :-
 	prob_parse(
-		   [ si('Rollerbladers', npp-nam, 'Rollerbladers', [np-1]),
+		   [ si('Des', p-prp, des, [dr(0, np, n)-1]),
+		     si(adeptes, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(sont, v-ver:pres, être, [dr(0, dl(0, np, s), pp)-1]),
 		     si(en, p-prp, en, [dr(0, pp, n)-1]),
 		     si(cours, nc-nom, cours, [n-1]),
@@ -259847,7 +259869,10 @@ sent(17013, Result) :-
 		   Result).
 sent(17014, Result) :-
 	prob_parse(
-		   [ si('Rollerbladers', npp-nam, 'Rollerbladers', [np-1]),
+		   [ si('Des', p-prp, des, [dr(0, np, n)-1]),
+		     si(adeptes, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(roulent, v-ver:pres, rouler, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), n)-1]),
 		     si(formation, nc-nom, formation, [n-1]),
@@ -259877,7 +259902,10 @@ sent(17015, Result) :-
 		   Result).
 sent(17016, Result) :-
 	prob_parse(
-		   [ si('Rollerbladers', npp-nam, 'Rollerbladers', [np-1]),
+		   [ si('Des', p-prp, des, [dr(0, np, n)-1]),
+		     si(adeptes, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(roulent, v-ver:pres, rouler, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), n)-1]),
 		     si(formation, nc-nom, formation, [n-1]),
@@ -259891,7 +259919,10 @@ sent(17016, Result) :-
 		   Result).
 sent(17017, Result) :-
 	prob_parse(
-		   [ si('Rollerbladers', npp-nam, 'Rollerbladers', [np-1]),
+		   [ si('Des', p-prp, des, [dr(0, np, n)-1]),
+		     si(adeptes, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(roulent, v-ver:pres, rouler, [dl(0, np, s)-1]),
 		     si(en, p-prp, en, [dr(0, dl(1, s, s), n)-1]),
 		     si(formation, nc-nom, formation, [n-1]),
@@ -260608,8 +260639,8 @@ sent(17059, Result) :-
 	prob_parse(
 		   [ si('Trois', det-num, trois, [dr(0, np, n)-1]),
 		     si(enfants, nc-nom, enfant, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(colline, nc-nom, colline, [n-1]),
 		     si(herbeuse, adj-adj, herbeux, [dl(0, n, n)-1])
@@ -260635,8 +260666,8 @@ sent(17061, Result) :-
 	prob_parse(
 		   [ si('Trois', det-num, trois, [dr(0, np, n)-1]),
 		     si(enfants, nc-nom, enfant, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(colline, nc-nom, colline, [n-1]),
 		     si(herbeuse, adj-adj, herbeux, [dl(0, n, n)-1])
@@ -260646,8 +260677,8 @@ sent(17062, Result) :-
 	prob_parse(
 		   [ si('Trois', det-num, trois, [dr(0, np, n)-1]),
 		     si(enfants, nc-nom, enfant, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(colline, nc-nom, colline, [n-1]),
 		     si(herbeuse, adj-adj, herbeux, [dl(0, n, n)-1])
@@ -260697,8 +260728,8 @@ sent(17066, Result) :-
 	prob_parse(
 		   [ si('Trois', det-num, trois, [dr(0, np, n)-1]),
 		     si(enfants, nc-nom, enfant, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(colline, nc-nom, colline, [n-1]),
 		     si(herbeuse, adj-adj, herbeux, [dl(0, n, n)-1])
@@ -260708,8 +260739,8 @@ sent(17067, Result) :-
 	prob_parse(
 		   [ si('Trois', det-num, trois, [dr(0, np, n)-1]),
 		     si(enfants, nc-nom, enfant, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(colline, nc-nom, colline, [n-1]),
 		     si(herbeuse, adj-adj, herbeux, [dl(0, n, n)-1])
@@ -260744,8 +260775,8 @@ sent(17070, Result) :-
 	prob_parse(
 		   [ si('Trois', det-num, trois, [dr(0, np, n)-1]),
 		     si(enfants, nc-nom, enfant, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(colline, nc-nom, colline, [n-1]),
 		     si(herbeuse, adj-adj, herbeux, [dl(0, n, n)-1])
@@ -260755,8 +260786,8 @@ sent(17071, Result) :-
 	prob_parse(
 		   [ si('Trois', det-num, trois, [dr(0, np, n)-1]),
 		     si(enfants, nc-nom, enfant, [n-1]),
-		     si(courent, v-ver:pres, courir, [dr(0, dl(0, np, s), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courent, v-ver:pres, courir, [dl(0, np, s)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(colline, nc-nom, colline, [n-1]),
 		     si(herbeuse, adj-adj, herbeux, [dl(0, n, n)-1])
@@ -305445,7 +305476,9 @@ sent(19626, Result) :-
 sent(19627, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
-		     si(rollerblader, nc-nom, rollerblader, [n-1]),
+		     si(adepte, nc-nom, adepte, [n-1]),
+		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
+		     si(roller, et-nom, roller, [n-1]),
 		     si(effectue, v-ver:pres, effectuer, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(tour, nc-nom, tour, [n-1]),
