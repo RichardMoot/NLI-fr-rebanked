@@ -15,7 +15,7 @@ chart_parse_all.       % parses all sentences
 
 Depending on your installation, you may need to use full paths for loading the different files, e.g. using  `[/path/to/sick/sickfr_superpos].` where `/path/to/sick` is the path to this repository on your computer.
 
-This will generate a number of files:
+Running the parser will generate a number of files:
 - The text file `unparsed` contains all sentence ids for which no proof was found. This file should be empty at the end of the parse, but  
 - The Prolog file `proofs.pl` will contain all proved sentences in the GrailLight natural deduction format.
 - The Prolog file `semantics.pl` generates the meaning of each sentence as computed by GrailLight's French Discourse Representation Theory (DRT) grammar.
