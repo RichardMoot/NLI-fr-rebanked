@@ -17899,17 +17899,18 @@ sent(1034, Result) :-
 		     si(femme, nc-nom, femme, [n-1]),
 		     si(piétonne, adj-adj, piétonne, [dl(0, n, n)-1]),
 		     si(construit,
-			vpp-ver:pper,
+			v-ver:pres,
 			construire,
 			[dr(0, dl(0, np, s), np)-1]),
 		     si(des, p+d-prp:det, des, [dr(0, np, n)-1]),
 		     si(vélos, nc-nom, vélo, [n-1]),
 		     si(roses, adj-adj, rose, [dl(0, n, n)-1]),
-		     si(pour, p-prp, pour, [dr(0, dl(1, s, s), n)-1]),
-		     si(boa, nc-nom, boa, [n-1]),
+		     si(pour, p-prp, pour, [dr(0, dl(1, s, s), np)-1]),
+		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
+		     si(cyclistes, nc-nom, cycliste, [n-1]),
 		     si(portant, vpr-ver:ppre, porter, [dr(0, dl(0, n, n), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si(cavaliers, nc-nom, cavalier, [n-1])
+		     si(boas, nc-nom, boa, [n-1])
 		   ],
 		   Result).
 sent(1035, Result) :-
@@ -18352,17 +18353,18 @@ sent(1052, Result) :-
 		     si(femme, nc-nom, femme, [n-1]),
 		     si(piétonne, adj-adj, piétonne, [dl(0, n, n)-1]),
 		     si(construit,
-			vpp-ver:pper,
+			v-ver:pres,
 			construire,
 			[dr(0, dl(0, np, s), np)-1]),
 		     si(des, p+d-prp:det, des, [dr(0, np, n)-1]),
 		     si(vélos, nc-nom, vélo, [n-1]),
 		     si(roses, adj-adj, rose, [dl(0, n, n)-1]),
-		     si(pour, p-prp, pour, [dr(0, dl(1, s, s), n)-1]),
-		     si(boa, nc-nom, boa, [n-1]),
+		     si(pour, p-prp, pour, [dr(0, dl(1, s, s), np)-1]),
+		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
+		     si(cyclistes, nc-nom, cycliste, [n-1]),
 		     si(portant, vpr-ver:ppre, porter, [dr(0, dl(0, n, n), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si(cavaliers, nc-nom, cavalier, [n-1])
+		     si(boas, nc-nom, boa, [n-1])
 		   ],
 		   Result).
 sent(1053, Result) :-
@@ -63196,7 +63198,7 @@ sent(3907, Result) :-
 		     si(pas, adv-adv, pas, [dr(0, np, pp_de)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, n)-1]),
 		     si(eau, nc-nom, eau, [n-1]),
-		     si(bue, adj-adj, boire, [dr(0, dl(0, n, n), pp_par)-1]),
+		     si(bue, vpp-ver:pper, boire, [dr(0, dl(0, n, n), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(chat, nc-nom, chat, [n-1])
@@ -63395,7 +63397,7 @@ sent(3922, Result) :-
 		     si(pas, adv-adv, pas, [dr(0, np, pp_de)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, n)-1]),
 		     si(eau, nc-nom, eau, [n-1]),
-		     si(bue, adj-adj, boire, [dr(0, dl(0, n, n), pp_par)-1]),
+		     si(bue, vpp-ver:pper, boire, [dr(0, dl(0, n, n), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(chat, nc-nom, chat, [n-1])
@@ -68147,7 +68149,7 @@ sent(4258, Result) :-
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(plage, nc-nom, plage, [n-1]),
 		     si(au, p+d-prp:det, au, [dr(0, dl(1, s, s), n)-1]),
-		     si(coucher, vinf-ver:infi, coucher, [n-1]),
+		     si(coucher, nc-nom, coucher, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
 		     si(soleil, nc-nom, soleil, [n-1])
 		   ],
@@ -68250,7 +68252,7 @@ sent(4263, Result) :-
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(plage, nc-nom, plage, [n-1]),
 		     si(au, p+d-prp:det, au, [dr(0, dl(1, s, s), n)-1]),
-		     si(coucher, vinf-ver:infi, coucher, [n-1]),
+		     si(coucher, nc-nom, coucher, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
 		     si(soleil, nc-nom, soleil, [n-1])
 		   ],
@@ -76882,7 +76884,7 @@ sent(4923, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
-		     si(délie, v-ver:pres, délier, [dr(0, dl(0, np, s), np)-1]),
+		     si(détache, v-ver:pres, détacher, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(corde, nc-nom, corde, [n-1])
 		   ],
@@ -77043,7 +77045,7 @@ sent(4938, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
-		     si(délie, v-ver:pres, délier, [dr(0, dl(0, np, s), np)-1]),
+		     si(détache, v-ver:pres, détacher, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(corde, nc-nom, corde, [n-1])
 		   ],
@@ -81840,7 +81842,7 @@ sent(5338, Result) :-
 		     si(pas, adv-adv, pas, [dr(0, np, pp_de)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, n)-1]),
 		     si(personne, nc-nom, personne, [n-1]),
-		     si(bouillant, adj-adj, bouillant, [dr(0, dl(0, n, n), np)-1]),
+		     si(bouillant, vpr-ver:ppre, bouillir, [dr(0, dl(0, n, n), np)-1]),
 		     si(des,
 			p+d-prp:det,
 			des,
@@ -82002,7 +82004,7 @@ sent(5349, Result) :-
 		     si(pas, adv-adv, pas, [dr(0, np, pp_de)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, n)-1]),
 		     si(personne, nc-nom, personne, [n-1]),
-		     si(bouillant, adj-adj, bouillant, [dr(0, dl(0, n, n), np)-1]),
+		     si(bouillant, vpr-ver:ppre, bouillir, [dr(0, dl(0, n, n), np)-1]),
 		     si(des,
 			p+d-prp:det,
 			des,
@@ -96352,7 +96354,7 @@ sent(6377, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(courant, nc-nom, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(devant,
 			p-prp,
 			devant,
@@ -96590,7 +96592,7 @@ sent(6390, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(courant, nc-nom, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(devant,
 			p-prp,
 			devant,
@@ -102324,7 +102326,7 @@ sent(6841, Result) :-
 		   Result).
 sent(6842, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(0, np, np), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(perche, nc-nom, perche, [n-1]),
@@ -102640,7 +102642,7 @@ sent(6859, Result) :-
 		   Result).
 sent(6860, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', pro-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(0, np, np), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(perche, nc-nom, perche, [n-1]),
@@ -119612,7 +119614,7 @@ sent(8255, Result) :-
 		   Result).
 sent(8256, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', cls-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(gratte, v-ver:pres, gratter, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(dos, nc-nom, dos, [n-1]),
@@ -119652,7 +119654,7 @@ sent(8259, Result) :-
 		   Result).
 sent(8260, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', cls-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(gratte, v-ver:pres, gratter, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(dos, nc-nom, dos, [n-1]),
@@ -119663,7 +119665,7 @@ sent(8260, Result) :-
 		   Result).
 sent(8261, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', cls-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(gratte, v-ver:pres, gratter, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(ventre, nc-nom, ventre, [n-1]),
@@ -119694,7 +119696,7 @@ sent(8262, Result) :-
 		   Result).
 sent(8263, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', cls-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(gratte, v-ver:pres, gratter, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(ventre, nc-nom, ventre, [n-1]),
@@ -119729,7 +119731,7 @@ sent(8265, Result) :-
 		   Result).
 sent(8266, Result) :-
 	prob_parse(
-		   [ si('Quelqu\'un', cls-pro:rel, 'quelqu\'un', [np-1]),
+		   [ si('Quelqu\'un', pro-pro:ind, 'quelqu\'un', [np-1]),
 		     si(gratte, v-ver:pres, gratter, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(ventre, nc-nom, ventre, [n-1]),
@@ -123156,7 +123158,7 @@ sent(8585, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1]),
-		     si(dénoue, v-ver:pres, dénouer, [dr(0, dl(0, np, s), np)-1]),
+		     si(détache, v-ver:pres, détacher, [dr(0, dl(0, np, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(chaussure, nc-nom, chaussure, [n-1])
 		   ],
@@ -168705,7 +168707,7 @@ sent(11970, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(courant, adj-adj, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(1, dl(0, n, n), dl(0, n, n)), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
@@ -168777,7 +168779,7 @@ sent(11973, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(courant, adj-adj, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(1, dl(0, n, n), dl(0, n, n)), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(piste, nc-nom, piste, [n-1])
@@ -171383,7 +171385,7 @@ sent(12122, Result) :-
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(police, nc-nom, police, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
-		     si(coucher, vinf-ver:infi, coucher, [n-1]),
+		     si(coucher, nc-nom, coucher, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
 		     si(soleil, nc-nom, soleil, [n-1]),
 		     si(',', ponct-pun, ',', [let-1]),
@@ -171412,7 +171414,7 @@ sent(12123, Result) :-
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(police, nc-nom, police, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
-		     si(coucher, vinf-ver:infi, coucher, [n-1]),
+		     si(coucher, nc-nom, coucher, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
 		     si(soleil, nc-nom, soleil, [n-1]),
 		     si(',', ponct-pun, ',', [let-1]),
@@ -171525,7 +171527,7 @@ sent(12129, Result) :-
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(police, nc-nom, police, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
-		     si(coucher, vinf-ver:infi, coucher, [n-1]),
+		     si(coucher, nc-nom, coucher, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
 		     si(soleil, nc-nom, soleil, [n-1]),
 		     si(',', ponct-pun, ',', [let-1]),
@@ -171588,7 +171590,7 @@ sent(12132, Result) :-
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(police, nc-nom, police, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
-		     si(coucher, vinf-ver:infi, coucher, [n-1]),
+		     si(coucher, nc-nom, coucher, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
 		     si(soleil, nc-nom, soleil, [n-1]),
 		     si(',', ponct-pun, ',', [let-1]),
@@ -171694,7 +171696,7 @@ sent(12137, Result) :-
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(police, nc-nom, police, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
-		     si(coucher, vinf-ver:infi, coucher, [n-1]),
+		     si(coucher, nc-nom, coucher, [n-1]),
 		     si(du, p+d-prp:det, du, [dr(0, dl(0, n, n), n)-1]),
 		     si(soleil, nc-nom, soleil, [n-1]),
 		     si(',', ponct-pun, ',', [let-1]),
@@ -194723,7 +194725,7 @@ sent(13401, Result) :-
 		     si(pas, adv-adv, pas, [dr(0, np, pp_de)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, n)-1]),
 		     si(chien, nc-nom, chien, [n-1]),
-		     si(courant, adj-adj, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(1, dl(0, n, n), dl(0, n, n)), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(colline, nc-nom, colline, [n-1]),
@@ -194783,7 +194785,7 @@ sent(13406, Result) :-
 		     si(pas, adv-adv, pas, [dr(0, np, pp_de)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, n)-1]),
 		     si(chien, nc-nom, chien, [n-1]),
-		     si(courant, adj-adj, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(1, dl(0, n, n), dl(0, n, n)), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(colline, nc-nom, colline, [n-1]),
@@ -199448,7 +199450,7 @@ sent(13627, Result) :-
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(course, nc-nom, course, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-nam, bmx, [n-1])
+		     si(bmx, nc-abr, bmx, [n-1])
 		   ],
 		   Result).
 sent(13628, Result) :-
@@ -199463,7 +199465,7 @@ sent(13628, Result) :-
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(course, nc-nom, course, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, nc-nom, bmx, [n-1])
+		     si(bmx, nc-abr, bmx, [n-1])
 		   ],
 		   Result).
 sent(13629, Result) :-
@@ -199478,7 +199480,7 @@ sent(13629, Result) :-
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(course, nc-nom, course, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-nam, bmx, [n-1])
+		     si(bmx, nc-abr, bmx, [n-1])
 		   ],
 		   Result).
 sent(13630, Result) :-
@@ -199494,7 +199496,7 @@ sent(13630, Result) :-
 		     si(à, p-prp, à, [dr(0, pp_a, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(course, nc-nom, course, [n-1]),
-		     si(bmx, npp-abr, bmx, [dl(0, n, n)-1])
+		     si(bmx, nc-abr, bmx, [dl(0, n, n)-1])
 		   ],
 		   Result).
 sent(13631, Result) :-
@@ -199649,7 +199651,7 @@ sent(13638, Result) :-
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(course, nc-nom, course, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-nam, bmx, [n-1])
+		     si(bmx, nc-abr, bmx, [n-1])
 		   ],
 		   Result).
 sent(13639, Result) :-
@@ -199664,7 +199666,7 @@ sent(13639, Result) :-
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(course, nc-nom, course, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-nam, bmx, [n-1])
+		     si(bmx, nc-abr, bmx, [n-1])
 		   ],
 		   Result).
 sent(13640, Result) :-
@@ -199727,7 +199729,7 @@ sent(13642, Result) :-
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(course, nc-nom, course, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-nam, bmx, [n-1])
+		     si(bmx, nc-abr, bmx, [n-1])
 		   ],
 		   Result).
 sent(13643, Result) :-
@@ -199760,7 +199762,7 @@ sent(13644, Result) :-
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(course, nc-nom, course, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, nc-nom, bmx, [n-1])
+		     si(bmx, nc-abr, bmx, [n-1])
 		   ],
 		   Result).
 sent(13645, Result) :-
@@ -199776,7 +199778,7 @@ sent(13645, Result) :-
 		     si(à, p-prp, à, [dr(0, pp_a, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(course, nc-nom, course, [n-1]),
-		     si(bmx, npp-abr, bmx, [dl(0, n, n)-1])
+		     si(bmx, nc-abr, bmx, [dl(0, n, n)-1])
 		   ],
 		   Result).
 sent(13646, Result) :-
@@ -199827,7 +199829,7 @@ sent(13648, Result) :-
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(course, nc-nom, course, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-nam, bmx, [n-1])
+		     si(bmx, nc-abr, bmx, [n-1])
 		   ],
 		   Result).
 sent(13649, Result) :-
@@ -210830,7 +210832,7 @@ sent(14287, Result) :-
 		     si(de, p-prp, de, [dr(0, pp_de, n)-1]),
 		     si(jeune, adj-adj, jeune, [dr(0, n, n)-1]),
 		     si(enfant, nc-nom, enfant, [n-1]),
-		     si(courant, adj-adj, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(dehors, adv-adv, dehors, [dl(1, dl(0, n, n), dl(0, n, n))-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(1, dl(0, n, n), dl(0, n, n)), np)-1]),
 		     si(les, det-det:art, les, [dr(0, np, n)-1]),
@@ -210895,7 +210897,7 @@ sent(14291, Result) :-
 		     si(de, p-prp, de, [dr(0, pp_de, n)-1]),
 		     si(jeune, adj-adj, jeune, [dr(0, n, n)-1]),
 		     si(enfant, nc-nom, enfant, [n-1]),
-		     si(courant, adj-adj, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(dehors, adv-adv, dehors, [dl(1, dl(0, n, n), dl(0, n, n))-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(1, dl(0, n, n), dl(0, n, n)), np)-1]),
 		     si(les, det-det:art, les, [dr(0, np, n)-1]),
@@ -224147,8 +224149,8 @@ sent(14989, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(courant, adj-adj, courant, [dr(0, dl(0, n, n), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, dl(0, n, n), dl(0, n, n)), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(herbe, nc-nom, herbe, [n-1])
 		   ],
@@ -224256,8 +224258,8 @@ sent(14994, Result) :-
 			cc-kon,
 			et,
 			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
-		     si(courant, adj-adj, courant, [dr(0, dl(0, n, n), pp)-1]),
-		     si(sur, p-prp, sur, [dr(0, pp, np)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
+		     si(sur, p-prp, sur, [dr(0, dl(1, dl(0, n, n), dl(0, n, n)), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(herbe, nc-nom, herbe, [n-1])
 		   ],
@@ -227601,7 +227603,7 @@ sent(15182, Result) :-
 		     si(chien, nc-nom, chien, [n-1]),
 		     si(brun, adj-adj, brun, [dl(0, n, n)-1]),
 		     si(clair, adj-adj, clair, [dl(0, dl(0, n, n), dl(0, n, n))-1]),
-		     si(courant, adj-adj, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(dans,
 			p-prp,
 			dans,
@@ -227770,7 +227772,7 @@ sent(15196, Result) :-
 		     si(chien, nc-nom, chien, [n-1]),
 		     si(brun, adj-adj, brun, [dl(0, n, n)-1]),
 		     si(clair, adj-adj, clair, [dl(0, dl(0, n, n), dl(0, n, n))-1]),
-		     si(courant, adj-adj, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(dans,
 			p-prp,
 			dans,
@@ -231868,7 +231870,7 @@ sent(15450, Result) :-
 			conduire,
 			[dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('VTT', nc-nom, vtt, [n-1])
+		     si('VTT', nc-abr, 'VTT', [n-1])
 		   ],
 		   Result).
 sent(15451, Result) :-
@@ -232071,7 +232073,7 @@ sent(15462, Result) :-
 			conduire,
 			[dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
-		     si('VTT', nc-nom, vtt, [n-1])
+		     si('VTT', nc-abr, 'VTT', [n-1])
 		   ],
 		   Result).
 sent(15463, Result) :-
@@ -233441,7 +233443,7 @@ sent(15530, Result) :-
 		     si(pas, adv-adv, pas, [dr(0, np, pp_de)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, n)-1]),
 		     si(chien, nc-nom, chien, [n-1]),
-		     si(courant, adj-adj, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(à, p-prp, à, [dr(0, dr(0, dl(1, dl(0, n, n), dl(0, n, n)), np), n)-1]),
 		     si(travers, nc-nom, travers, [n-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -233502,7 +233504,7 @@ sent(15534, Result) :-
 		     si(pas, adv-adv, pas, [dr(0, np, pp_de)-1]),
 		     si(de, p-prp, de, [dr(0, pp_de, n)-1]),
 		     si(chien, nc-nom, chien, [n-1]),
-		     si(courant, adj-adj, courant, [dl(0, n, n)-1]),
+		     si(courant, vpr-ver:ppre, courir, [dl(0, n, n)-1]),
 		     si(à, p-prp, à, [dr(0, dr(0, dl(1, dl(0, n, n), dl(0, n, n)), np), n)-1]),
 		     si(travers, nc-nom, travers, [n-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
@@ -247630,7 +247632,7 @@ sent(16337, Result) :-
 		   [ si('Deux', det-num, deux, [dr(0, np, n)-1]),
 		     si(cyclistes, nc-nom, cycliste, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-abr, bmx, [n-1]),
+		     si(bmx, nc-abr, bmx, [n-1]),
 		     si(sautent, v-ver:pres, sauter, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
 		     si(rampes, nc-nom, rampe, [n-1]),
@@ -247648,7 +247650,7 @@ sent(16338, Result) :-
 		   [ si('Deux', det-num, deux, [dr(0, np, n)-1]),
 		     si(cyclistes, nc-nom, cycliste, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-abr, bmx, [n-1]),
+		     si(bmx, nc-abr, bmx, [n-1]),
 		     si(sautent, v-ver:pres, sauter, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, p+d-prp:det, des, [dr(0, np, n)-1]),
 		     si(rampes, nc-nom, rampe, [n-1]),
@@ -247689,7 +247691,7 @@ sent(16340, Result) :-
 		   [ si('Deux', det-num, deux, [dr(0, np, n)-1]),
 		     si(cyclistes, nc-nom, cycliste, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-abr, bmx, [n-1]),
+		     si(bmx, nc-abr, bmx, [n-1]),
 		     si(sautent, v-ver:pres, sauter, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, p+d-prp:det, des, [dr(0, np, n)-1]),
 		     si(rampes, nc-nom, rampe, [n-1]),
@@ -247795,7 +247797,7 @@ sent(16345, Result) :-
 		   [ si('Deux', det-num, deux, [dr(0, np, n)-1]),
 		     si(cyclistes, nc-nom, cycliste, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-abr, bmx, [n-1]),
+		     si(bmx, nc-abr, bmx, [n-1]),
 		     si(sautent, v-ver:pres, sauter, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, p+d-prp:det, des, [dr(0, np, n)-1]),
 		     si(rampes, nc-nom, rampe, [n-1]),
@@ -247833,7 +247835,7 @@ sent(16347, Result) :-
 		   [ si('Deux', det-num, deux, [dr(0, np, n)-1]),
 		     si(cyclistes, nc-nom, cycliste, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-abr, bmx, [n-1]),
+		     si(bmx, nc-abr, bmx, [n-1]),
 		     si(sautent, v-ver:pres, sauter, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, p+d-prp:det, des, [dr(0, np, n)-1]),
 		     si(rampes, nc-nom, rampe, [n-1]),
@@ -247875,7 +247877,7 @@ sent(16349, Result) :-
 		   [ si('Deux', det-num, deux, [dr(0, np, n)-1]),
 		     si(cyclistes, nc-nom, cycliste, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-abr, bmx, [n-1]),
+		     si(bmx, nc-abr, bmx, [n-1]),
 		     si(sautent, v-ver:pres, sauter, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
 		     si(rampes, nc-nom, rampe, [n-1]),
@@ -247920,7 +247922,7 @@ sent(16351, Result) :-
 		     si(de, p-prp, de, [dr(0, pp_de, n)-1]),
 		     si(cycliste, nc-nom, cycliste, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-abr, bmx, [n-1]),
+		     si(bmx, nc-abr, bmx, [n-1]),
 		     si(sautant, vpr-ver:ppre, sauter, [dr(0, dl(0, n, n), np)-1]),
 		     si(rampes, nc-nom, rampe, [np-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
@@ -247961,7 +247963,7 @@ sent(16353, Result) :-
 		   [ si('Deux', det-num, deux, [dr(0, np, n)-1]),
 		     si(cyclistes, nc-nom, cycliste, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-abr, bmx, [n-1]),
+		     si(bmx, nc-abr, bmx, [n-1]),
 		     si(sautent, v-ver:pres, sauter, [dr(0, dl(0, np, s), np)-1]),
 		     si(des, p+d-prp:det, des, [dr(0, np, n)-1]),
 		     si(rampes, nc-nom, rampe, [n-1]),
@@ -253197,7 +253199,7 @@ sent(16637, Result) :-
 		     si(sur, p-prp, sur, [dr(0, dl(0, n, n), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(vélo, nc-nom, vélo, [n-1]),
-		     si(bmx, npp-abr, bmx, [dl(0, n, n)-1]),
+		     si(bmx, nc-abr, bmx, [dl(0, n, n)-1]),
 		     si(saute, v-ver:pres, sauter, [dr(0, dl(0, np, s), pp)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -253214,7 +253216,7 @@ sent(16638, Result) :-
 		     si(sur, p-prp, sur, [dr(0, dl(0, n, n), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(vélo, nc-nom, vélo, [n-1]),
-		     si(bmx, npp-abr, bmx, [dl(0, n, n)-1]),
+		     si(bmx, nc-abr, bmx, [dl(0, n, n)-1]),
 		     si(saute, v-ver:pres, sauter, [dr(0, dl(0, np, s), pp)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -253229,7 +253231,7 @@ sent(16639, Result) :-
 		     si(sur, p-prp, sur, [dr(0, dl(0, n, n), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(vélo, nc-nom, vélo, [n-1]),
-		     si(bmx, npp-abr, bmx, [dl(0, n, n)-1]),
+		     si(bmx, nc-abr, bmx, [dl(0, n, n)-1]),
 		     si(saute, v-ver:pres, sauter, [dl(0, np, s)-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -253246,7 +253248,7 @@ sent(16640, Result) :-
 		     si(sur, p-prp, sur, [dr(0, dl(0, n, n), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(vélo, nc-nom, vélo, [n-1]),
-		     si(bmx, npp-abr, bmx, [dl(0, n, n)-1]),
+		     si(bmx, nc-abr, bmx, [dl(0, n, n)-1]),
 		     si(saute, v-ver:pres, sauter, [dr(0, dl(0, np, s), pp)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -253327,7 +253329,7 @@ sent(16645, Result) :-
 		     si(sur, p-prp, sur, [dr(0, dl(0, n, n), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(vélo, nc-nom, vélo, [n-1]),
-		     si(bmx, npp-abr, bmx, [dl(0, n, n)-1]),
+		     si(bmx, nc-abr, bmx, [dl(0, n, n)-1]),
 		     si(saute, v-ver:pres, sauter, [dr(0, dl(0, np, s), pp)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -253380,7 +253382,7 @@ sent(16648, Result) :-
 		     si(sur, p-prp, sur, [dr(0, dl(0, n, n), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(vélo, nc-nom, vélo, [n-1]),
-		     si(bmx, npp-abr, bmx, [dl(0, n, n)-1]),
+		     si(bmx, nc-abr, bmx, [dl(0, n, n)-1]),
 		     si(saute, v-ver:pres, sauter, [dr(0, dl(0, np, s), pp)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -253397,7 +253399,7 @@ sent(16649, Result) :-
 		     si(sur, p-prp, sur, [dr(0, dl(0, n, n), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(vélo, nc-nom, vélo, [n-1]),
-		     si(bmx, npp-abr, bmx, [dl(0, n, n)-1]),
+		     si(bmx, nc-abr, bmx, [dl(0, n, n)-1]),
 		     si(saute, v-ver:pres, sauter, [dr(0, dl(0, np, s), pp)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -253426,7 +253428,7 @@ sent(16651, Result) :-
 		     si(sur, p-prp, sur, [dr(0, dl(0, n, n), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(vélo, nc-nom, vélo, [n-1]),
-		     si(bmx, npp-abr, bmx, [dl(0, n, n)-1]),
+		     si(bmx, nc-abr, bmx, [dl(0, n, n)-1]),
 		     si(saute, v-ver:pres, sauter, [dl(0, np, s)-1]),
 		     si(sur, p-prp, sur, [dr(0, dl(1, s, s), np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -253471,7 +253473,7 @@ sent(16654, Result) :-
 		     si(sur, p-prp, sur, [dr(0, dl(0, n, n), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(vélo, nc-nom, vélo, [n-1]),
-		     si(bmx, npp-abr, bmx, [dl(0, n, n)-1]),
+		     si(bmx, nc-abr, bmx, [dl(0, n, n)-1]),
 		     si(saute, v-ver:pres, sauter, [dr(0, dl(0, np, s), pp)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
@@ -302883,7 +302885,7 @@ sent(19455, Result) :-
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(course, nc-nom, course, [n-1]),
 		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(bmx, npp-nam, bmx, [n-1])
+		     si(bmx, nc-abr, bmx, [n-1])
 		   ],
 		   Result).
 sent(19456, Result) :-
