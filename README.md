@@ -1,8 +1,10 @@
 # SICK-fr-rebanked
 
-Rebanked version of the [French SICK dataset](https://huggingface.co/datasets/maximoss/sick-fr) for  use with the [GrailLight](https://github.com/RichardMoot/GrailLight) parser and the  [French Neurosymbolic Natural Language Inference](https://github.com/mskandalis/hybrid_nli_fr) engine of Skandalis e.a. (2025).
+The [French SICK dataset](https://huggingface.co/datasets/maximoss/sick-fr) of Skandalis e.a. (2024) is an automatic translation of the original [English SICK dataset](https://huggingface.co/datasets/RobZamp/sick) of Marelli e.a. (2014).
 
-All sentences have manually corrected part-of-speech tags and supertags. Although  quite a few translation errors of the original dataset have been corrected, there are likely many others left. Sentence numbers have been preserved from the Skandalis e.a. (2025) paper.
+The repository contains a rebanked version of the [French SICK dataset](https://huggingface.co/datasets/maximoss/sick-fr) for use with the [GrailLight](https://github.com/RichardMoot/GrailLight) parser and the  [French Neurosymbolic Natural Language Inference](https://github.com/mskandalis/hybrid_nli_fr) engine of Skandalis e.a. (2025).
+
+All sentences have manually corrected part-of-speech tags and supertags. Although quite a few translation errors of the original dataset have been corrected, there are likely many others left. Sentence numbers have been preserved from the Skandalis e.a. (2025) paper.
 
 The recommended way to run the [GrailLight](https://github.com/RichardMoot/GrailLight) parser on this dataset is to start [SWI Prolog](https://www.swi-prolog.org),  then run the following commands to load the necessary files and start the parser.
 
@@ -25,6 +27,8 @@ Running the parser will generate a number of files:
 If you find this work useful, please cite the following papers.
 
 ### References
+
+Marelli, M., Menini, S., Baroni, M., Bentivogli, L., Bernardi, R., & Zamparelli, R. (2014) _A SICK cure for the evaluation of compositional distributional semantic models_ In Proceedings of the 9th International Conference on Language Resources and Evaluation, LREC 2014 (pp. 216-223). European Language Resources Association (ELRA).
 
 Skandalis, M., Moot, R., Retoré, C., & Robillard, S. (2024) _New Datasets for Automatic Detection of Textual Entailment and of Contradictions between Sentences in French_ In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024) (pp. 12173-12186).
 
