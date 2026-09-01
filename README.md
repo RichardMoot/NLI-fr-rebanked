@@ -39,7 +39,7 @@ Running the parser will generate a number of files:
 
 ## File format
 
-The files in this repository are presented in the form expected by the GrailLight parser. However, the  [GrailLight](https://github.com/RichardMoot/GrailLight) repository contains a Prolog script `print_sents.pl` which takes one of these files as input and produces outputs in different formats.
+The files in this repository are presented in the form expected by the GrailLight parser, giving word, part-of-speech tag, lemma and formula for each item. However, the  [GrailLight](https://github.com/RichardMoot/GrailLight) repository contains a Prolog script `print_sents.pl` which takes one of these files as input and produces outputs in different formats.
 
 For example, the following sequence of Prolog commands will transform the SICK dataset into the input expected by the supertagger.
 ```
