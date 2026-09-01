@@ -12,8 +12,8 @@ The [French FraCaS dataset](https://gitlab.inria.fr/semagramme-public-projects/r
 
 The repository contains rebanked versions of the following French language Natural Language Inference datasets.
 - SICK (19 681 sentences, in separate files `sickfr_superpos.pl` ans `sick_crosses.pl` due to size)
-- GQNLI (703 sentences, single file)
-- FraCaS (877 sentences, single file )
+- GQNLI (703 sentences, single file `gqnli_fr_superpos.pl`)
+- FraCaS (877 sentences, single file `fracas_fr_superpos.pl`)
 
 These dataset are intended to be used with the [GrailLight](https://github.com/RichardMoot/GrailLight) parser, and the [French Neurosymbolic Natural Language Inference](https://github.com/mskandalis/hybrid_nli_fr) engine of Skandalis e.a. (2025).
 
