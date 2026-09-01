@@ -68,6 +68,10 @@ As another example, the FraCaS dataset contains a section on gapping, where the 
 
 Another possible use case is to add the training data from the different datasets to the [TLGbank](https://github.com/RichardMoot/TLGbankLight) training data and retrain the [DeepGrail supertagger](https://gitlab.irit.fr/pnria/global-helper/deepgrail_tagger) with these additional data.
 
+## License
+
+This work is presented as is to help to research community and under the same license of the datasets from which it is derived. However, if you find any remaining errors in these files (translation, part-of-speech tag, lemma, formula, parse), please notify me and I will fix these as soon as possible.
+
 If you find this work useful, please cite Skandalis e.a. (2024, 2025).
 
 ### References
