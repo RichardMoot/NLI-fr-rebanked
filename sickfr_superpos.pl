@@ -75911,7 +75911,7 @@ sent(4834, Result) :-
 		     si(autour, p-prp, autour, [dr(0, dl(1, s, s), pp_de)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si(stylo, nc-nom, stylo, [n-1]),
+		     si(enclos, nc-nom, enclos, [n-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), np)-1]),
 		     si(sa, det-det:pos, sa, [dr(0, np, n)-1]),
 		     si(mère, nc-nom, mère, [n-1])
@@ -75927,7 +75927,7 @@ sent(4835, Result) :-
 		     si(autour, p-prp, autour, [dr(0, dl(1, s, s), pp_de)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si(stylo, nc-nom, stylo, [n-1]),
+		     si(enclos, nc-nom, enclos, [n-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), np)-1]),
 		     si(sa, det-det:pos, sa, [dr(0, np, n)-1]),
 		     si(mère, nc-nom, mère, [n-1])
@@ -75958,7 +75958,7 @@ sent(4837, Result) :-
 		     si(autour, p-prp, autour, [dr(0, dl(1, s, s), pp_de)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si(stylo, nc-nom, stylo, [n-1]),
+		     si(enclos, nc-nom, enclos, [n-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), np)-1]),
 		     si(sa, det-det:pos, sa, [dr(0, np, n)-1]),
 		     si(mère, nc-nom, mère, [n-1])
@@ -75981,7 +75981,7 @@ sent(4838, Result) :-
 		     si(rhinocéros, nc-nom, rhinocéros, [n-1]),
 		     si(qui, prorel-pro:rel, qui, [dr(0, dl(0, n, n), dl(0, np, s))-1]),
 		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1]),
-		     si(dessus, adv-adv, dessus, [dl(1, s, s)-1])
+		     si(dessus, adv-adv, dessus, [dl(0, n, n)-1])
 		   ],
 		   Result).
 sent(4839, Result) :-
@@ -76070,7 +76070,7 @@ sent(4844, Result) :-
 		     si(rhinocéros, nc-nom, rhinocéros, [n-1]),
 		     si(qui, prorel-pro:rel, qui, [dr(0, dl(0, n, n), dl(0, np, s))-1]),
 		     si(marche, v-ver:pres, marcher, [dl(0, np, s)-1]),
-		     si(dessus, adv-adv, dessus, [dl(1, s, s)-1])
+		     si(dessus, adv-adv, dessus, [dl(0, n, n)-1])
 		   ],
 		   Result).
 sent(4845, Result) :-
@@ -76083,7 +76083,7 @@ sent(4845, Result) :-
 		     si(autour, p-prp, autour, [dr(0, dl(1, s, s), pp_de)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si(stylo, nc-nom, stylo, [n-1]),
+		     si(enclos, nc-nom, enclos, [n-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), np)-1]),
 		     si(sa, det-det:pos, sa, [dr(0, np, n)-1]),
 		     si(mère, nc-nom, mère, [n-1])
@@ -76125,7 +76125,7 @@ sent(4848, Result) :-
 		     si(autour, p-prp, autour, [dr(0, dl(1, s, s), pp_de)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si(stylo, nc-nom, stylo, [n-1]),
+		     si(enclos, nc-nom, enclos, [n-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), np)-1]),
 		     si(sa, det-det:pos, sa, [dr(0, np, n)-1]),
 		     si(mère, nc-nom, mère, [n-1])
@@ -76141,7 +76141,7 @@ sent(4849, Result) :-
 		     si(autour, p-prp, autour, [dr(0, dl(1, s, s), pp_de)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si(stylo, nc-nom, stylo, [n-1]),
+		     si(enclos, nc-nom, enclos, [n-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), np)-1]),
 		     si(sa, det-det:pos, sa, [dr(0, np, n)-1]),
 		     si(mère, nc-nom, mère, [n-1])
@@ -76177,7 +76177,7 @@ sent(4851, Result) :-
 		     si(autour, p-prp, autour, [dr(0, dl(1, s, s), pp_de)-1]),
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
-		     si(stylo, nc-nom, stylo, [n-1]),
+		     si(enclos, nc-nom, enclos, [n-1]),
 		     si(avec, p-prp, avec, [dr(0, dl(1, s, s), np)-1]),
 		     si(sa, det-det:pos, sa, [dr(0, np, n)-1]),
 		     si(mère, nc-nom, mère, [n-1])
