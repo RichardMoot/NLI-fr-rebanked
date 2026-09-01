@@ -37,6 +37,25 @@ Running the parser will generate a number of files:
 - The LaTeX file `latex_proofs.tex` contains the proofs in LaTeX format.
 - The LaTeX file  `semantics.tex` contains the semantics in LaTeX format.
 
+## File format
+
+The files in this repository are presented in the form expected by the GrailLight parser. However, the GrailLight repository contains a Prolog script `print_sents.pl` which takes one of these files as input and produces outputs in different formats.
+
+For example, the following sequence of Prolog commands will transform the SICK dataset into the input expected by the supertagger.
+```
+[print_sents].
+[sickfr_superpos].
+print_sents.
+```
+
+Similarly, the following sequence of Prolog commands will transform the SICK dataset into tokenized text input for evaluate the entire NLI treatment chain.
+```
+[print_sents].
+[sickfr_superpos].
+print_sents.
+```
+
+
 ## Comments
 
 These rebanked versions allow us to separate errors at different levels and evaluate the [French Neurosymbolic Natural Language Inference](https://github.com/mskandalis/hybrid_nli_fr) engine of Skandalis e.a. (2025) with silver input data with less errors than starting from raw input text. For example, the supertagger, trained on a journalistic corpus with longer sentences has trouble with short, declarative sentences like we find in SICK. It will tend to analyse phrases like "Un chien court" (_a dog runs_) as the noun phrase _a short dog_. This is indeed a possible reading: "court" is polysemous in French and can be a noun (tennis court), an adjective meaning "short" and a present tense verb meaning "runs". Cases like these have been manually corrected with the intended analysis.
