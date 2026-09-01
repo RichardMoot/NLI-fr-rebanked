@@ -2,15 +2,15 @@
 
 ## Datasets
 
-The [french SICK dataset](https://huggingface.co/datasets/maximoss/sick-fr) of Skandalis e.a. (2024) is an automatic translation of the original [English SICK dataset](https://huggingface.co/datasets/RobZamp/sick) of Marelli e.a. (2014).
+The [French SICK dataset](https://huggingface.co/datasets/maximoss/sick-fr) of Skandalis e.a. (2024) is an automatic translation of the original [English SICK dataset](https://huggingface.co/datasets/RobZamp/sick) of Marelli e.a. (2014).
 
-The [french GQNLI dataset](https://github.com/mskandalis/gqnli-french) of Skandalis e.a. (2024), is the french translation of the [GQNLI dateset](https://github.com/ruixiangcui/gqnli) for evaluating reasoning with generalised quantifiers of Cui e.a. (2022). 
+The [French GQNLI dataset](https://github.com/mskandalis/gqnli-french) of Skandalis e.a. (2024), is the French translation of the [GQNLI dateset](https://github.com/ruixiangcui/gqnli) for evaluating reasoning with generalised quantifiers of Cui e.a. (2022). 
 
-The [french FraCaS dataset](https://gitlab.inria.fr/semagramme-public-projects/resources/french-fracas) of Amblard e.a. (2020) is the French translation of the FraCaS dataset of Cooper e.a. (1996).
+The [French FraCaS dataset](https://gitlab.inria.fr/semagramme-public-projects/resources/french-fracas) of Amblard e.a. (2020) is the French translation of the FraCaS dataset of Cooper e.a. (1996).
 
 ## Rebanked versions
 
-The repository contains rebanked versions of the following french Natural Language Inference datasets.
+The repository contains rebanked versions of the following French language Natural Language Inference datasets.
 - SICK (19 681 sentences)
 - GQNLI (703 sentences)
 - FraCaS (877 sentences)
