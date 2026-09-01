@@ -48,10 +48,10 @@ For example, the following sequence of Prolog commands will transform the SICK d
 print_sents.
 ```
 
-Similarly, the following sequence of Prolog commands will transform the SICK dataset into tokenized text input for evaluate the entire NLI treatment chain.
+Similarly, the following sequence of Prolog commands will transform the GQNLI dataset into tokenized text input for evaluating the entire NLI treatment chain.
 ```
 [print_sents].
-[sickfr_superpos].
+[gqnli_fr_superpos].
 print_sents.
 ```
 
