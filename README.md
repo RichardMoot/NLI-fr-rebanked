@@ -41,6 +41,8 @@ Running the parser will generate a number of files:
 
 These rebanked versions allow us to separate errors at different levels and evaluate the [French Neurosymbolic Natural Language Inference](https://github.com/mskandalis/hybrid_nli_fr) engine of Skandalis e.a. (2025) with silver input data with less errors than starting from raw input text. For example, the supertagger, trained on a journalistic corpus with longer sentences has trouble with short, declarative sentences like we find in SICK. It will tend to analyse phrases like "Un chien court" (_a dog runs_) as the noun phrase _a short dog_. This is indeed a possible reading: "court" is polysemous in French and can be a noun (tennis court), an adjective meaning "short" and a present tense verb meaning "runs". Cases like these have been manually corrected with the intended analysis.
 
+As another example, the FraCaS dataset contains a section on gapping, where the supertagger tends to have problems with gapping of intransitive words due to these being nearly absent from the training data. However, with the correct supertag, this section becomes easy.
+
 Another possible use case is to add the training data from the different datasets to the [TLGbank](https://github.com/RichardMoot/TLGbankLight) training data and retrain the [DeepGrail supertagger](https://gitlab.irit.fr/pnria/global-helper/deepgrail_tagger) with these additional data.
 
 If you find this work useful, please cite Skandalis e.a. (2024, 2025).
