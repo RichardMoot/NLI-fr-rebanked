@@ -190959,7 +190959,7 @@ sent(13183, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, np), dl(0, np, np)), dl(0, n, n))-1]),
 		     si(lisant, vpr-ver:ppre, lire, [dr(0, dl(0, n, n), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
 		     si(livres, nc-nom, livre, [n-1])
@@ -191160,7 +191160,7 @@ sent(13195, Result) :-
 		     si(et,
 			cc-kon,
 			et,
-			[dr(0, dl(0, dl(0, n, n), dl(0, n, n)), dl(0, n, n))-1]),
+			[dr(0, dl(0, dl(0, np, np), dl(0, np, np)), dl(0, n, n))-1]),
 		     si(lisant, vpr-ver:ppre, lire, [dr(0, dl(0, n, n), np)-1]),
 		     si(des, det-prp:det, des, [dr(0, np, n)-1]),
 		     si(livres, nc-nom, livre, [n-1])
