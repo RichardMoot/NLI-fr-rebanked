@@ -46789,7 +46789,7 @@ sent(2686, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(crayon, nc-nom, crayon, [n-1]),
-		     i(est,
+		     si(est,
 			v-ver:pres,
 			être,
 			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
@@ -46829,7 +46829,7 @@ sent(2689, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(crayon, nc-nom, crayon, [n-1]),
-		     i(est,
+		     si(est,
 			v-ver:pres,
 			être,
 			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
