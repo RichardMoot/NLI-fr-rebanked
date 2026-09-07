@@ -62,11 +62,11 @@ told.
 
 ## Comments
 
-These rebanked versions allow us to separate errors at different levels and evaluate the [French Neurosymbolic Natural Language Inference](https://github.com/mskandalis/hybrid_nli_fr) engine of Skandalis e.a. (2025) with silver input data with less errors than starting from raw input text. For example, the supertagger, trained on a journalistic corpus with longer sentences has trouble with short, declarative sentences like we find in SICK. It will tend to analyse phrases like "Un chien court" (_a dog runs_) as the noun phrase _a short dog_. This is indeed a possible reading: "court" is polysemous in French and can be a noun (tennis court), an adjective meaning "short" and a present tense verb meaning "runs". Cases like these have been manually corrected with the intended analysis.
+These rebanked versions allow us to separate errors at different levels and evaluate the [French Neurosymbolic Natural Language Inference](https://github.com/mskandalis/hybrid_nli_fr) engine of Skandalis e.a. (2025) with silver input data containing fewer errors than starting from raw input text. For example, the supertagger, trained on a journalistic corpus with longer sentences has trouble with short, declarative sentences like we find in SICK. It will tend to analyse phrases like "Un chien court" (_a dog runs_) as the noun phrase _a short dog_. This is indeed a possible reading: "court" is polysemous in French and can be a noun (tennis court), an adjective meaning "short" and a present tense verb meaning "runs". Cases like these have been manually corrected with the intended analysis.
 
-As another example, the FraCaS dataset contains a section on gapping, where the supertagger tends to have problems with gapping of intransitive words due to these being nearly absent from the training data. However, with the correct supertag, this section becomes easy.
+As another example, the FraCaS dataset contains a section on gapping, where the supertagger tends to have problems with gapping of intransitive verbs due to these being nearly absent from the training data. However, with the correct supertag, this section becomes very easy.
 
-Another possible use case is to add the training data from the different datasets to the [TLGbank](https://github.com/RichardMoot/TLGbankLight) training data and retrain the [DeepGrail supertagger](https://gitlab.irit.fr/pnria/global-helper/deepgrail_tagger) with these additional data.
+Another possible use case is to add the training data from the different datasets to the [TLGbank](https://github.com/RichardMoot/TLGbankLight) training data of Moot (2015) and retrain the [DeepGrail supertagger](https://gitlab.irit.fr/pnria/global-helper/deepgrail_tagger) with these additional data.
 
 ## License
 
@@ -76,14 +76,16 @@ If you find this work useful, please cite Skandalis e.a. (2024, 2025) and the au
 
 ### References
 
-Amblard, M., Beysson, C., de Groote, P., Guillaume, B. & Pogodalla, S. (2020), _A French Version of the FraCaS Test Suite_ Language Resources and Evaluation Conference (LREC 2020), Marseille, France
+Amblard, M., Beysson, C., de Groote, P., Guillaume, B. & Pogodalla, S. (2020), A French Version of the FraCaS Test Suite _In_ Language Resources and Evaluation Conference (LREC 2020), Marseille, France
 
-Cooper, R., Crouch, D., van Eijck, J., Fox, C., van Genabith, J., Jaspars, J., Kamp, H., Pinkal, M., Milward, D., Poesio, M., Pulman, S. (1996) _FraCaS: Using the framework_ Deliverable D16, University of Edinburgh.
+Cooper, R., Crouch, D., van Eijck, J., Fox, C., van Genabith, J., Jaspars, J., Kamp, H., Pinkal, M., Milward, D., Poesio, M., Pulman, S. (1996) FraCaS: Using the framework, Deliverable D16, University of Edinburgh.
 
-Cui, R., Hershcovich, D., & Søgaard, A. (2022) _Generalized Quantifiers as a Source of Error in Multilingual NLU Benchmarks_. In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL 2022), pages 4875–4893, Seattle, United States.
+Cui, R., Hershcovich, D., & Søgaard, A. (2022) Generalized Quantifiers as a Source of Error in Multilingual NLU Benchmarks. _In_ Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL 2022), pages 4875–4893, Seattle, United States.
 
-Marelli, M., Menini, S., Baroni, M., Bentivogli, L., Bernardi, R., & Zamparelli, R. (2014) _A SICK cure for the evaluation of compositional distributional semantic models_ In Proceedings of the 9th International Conference on Language Resources and Evaluation, LREC 2014 (pp. 216-223). European Language Resources Association (ELRA).
+Marelli, M., Menini, S., Baroni, M., Bentivogli, L., Bernardi, R., & Zamparelli, R. (2014) A SICK cure for the evaluation of compositional distributional semantic models _In_ Proceedings of the 9th International Conference on Language Resources and Evaluation, LREC 2014 (pp. 216-223). European Language Resources Association (ELRA).
 
-Skandalis, M., Moot, R., Retoré, C., & Robillard, S. (2024) _New Datasets for Automatic Detection of Textual Entailment and of Contradictions between Sentences in French_ In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024) (pp. 12173-12186).
+Moot, R. (2015). A type-logical treebank for French. _Journal of Language Modelling_, 3(1), 229-264.
 
-Skandalis, M., Abzianidze, L., Moot, R., Retoré, C., & Robillard, S. (2025) _Neurosymbolic AI for Natural Language Inference in French: combining LLMs and theorem provers for semantic parsing and natural language reasoning_ In Proceedings of the 16th International Conference on Computational Semantics (pp. 242-253).
+Skandalis, M., Moot, R., Retoré, C., & Robillard, S. (2024) New Datasets for Automatic Detection of Textual Entailment and of Contradictions between Sentences in French _In_ Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024) (pp. 12173-12186).
+
+Skandalis, M., Abzianidze, L., Moot, R., Retoré, C., & Robillard, S. (2025) Neurosymbolic AI for Natural Language Inference in French: combining LLMs and theorem provers for semantic parsing and natural language reasoning _In_ Proceedings of the 16th International Conference on Computational Semantics (pp. 242-253).
