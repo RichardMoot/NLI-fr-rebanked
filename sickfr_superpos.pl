@@ -20010,8 +20010,8 @@ sent(1138, Result) :-
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(chien, nc-nom, chien, [n-1]),
-		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(trot, nc-nom, trot, [n-1])
+		     si(qui, prorel-pro:rel, qui, [dr(0, dl(0, n, n), dl(0, np, s))-1]),
+		     si(trotte, v-ver:pres, trotter, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(1139, Result) :-
@@ -20390,9 +20390,8 @@ sent(1156, Result) :-
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(chien, nc-nom, chien, [n-1]),
-		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(trot, nc-nom, trot, [n-1])
-		   ],
+		     si(qui, prorel-pro:rel, qui, [dr(0, dl(0, n, n), dl(0, np, s))-1]),
+		     si(trotte, v-ver:pres, trotter, [dl(0, np, s)-1])		   ],
 		   Result).
 sent(1157, Result) :-
 	prob_parse(
@@ -304685,9 +304684,8 @@ sent(19572, Result) :-
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(chien, nc-nom, chien, [n-1]),
-		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(trot, nc-nom, trot, [n-1])
-		   ],
+		     si(qui, prorel-pro:rel, qui, [dr(0, dl(0, n, n), dl(0, np, s))-1]),
+		     si(trotte, v-ver:pres, trotter, [dl(0, np, s)-1])		   ],
 		   Result).
 sent(19573, Result) :-
 	prob_parse(
