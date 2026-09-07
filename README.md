@@ -66,7 +66,7 @@ These rebanked versions allow us to separate errors at different levels and eval
 
 As another example, the FraCaS dataset contains a section on gapping, where the supertagger tends to have problems with gapping of intransitive verbs due to these being nearly absent from the training data. However, with the correct supertag, this section becomes very easy.
 
-Another possible use case is to add the training data from the different datasets to the [TLGbank](https://github.com/RichardMoot/TLGbankLight) training data of Moot (2015) and retrain the [DeepGrail supertagger](https://gitlab.irit.fr/pnria/global-helper/deepgrail_tagger) with these additional data.
+Another possible use case is to add the training data from the different datasets to the [TLGbank](https://github.com/RichardMoot/TLGbankLight) training data of (Moot 2015) and retrain the [DeepGrail supertagger](https://gitlab.irit.fr/pnria/global-helper/deepgrail_tagger) with these additional data.
 
 ## License
 
