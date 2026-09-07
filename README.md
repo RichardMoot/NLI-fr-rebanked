@@ -78,6 +78,8 @@ If you find this work useful, please cite Skandalis e.a. (2024, 2025) and the au
 
 Amblard, M., Beysson, C., de Groote, P., Guillaume, B. & Pogodalla, S. (2020), _A French Version of the FraCaS Test Suite_ Language Resources and Evaluation Conference (LREC 2020), Marseille, France
 
+Cooper, R., Crouch, D., van Eijck, J., Fox, C., van Genabith, J., Jaspars, J., Kamp, H., Pinkal, M., Milward, D., Poesio, M., Pulman, S. (1996) _FraCaS: Using the framework_ Deliverable D16, University of Edinburgh.
+
 Cui, R., Hershcovich, D., & Søgaard, A. (2022) _Generalized Quantifiers as a Source of Error in Multilingual NLU Benchmarks_. In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL 2022), pages 4875–4893, Seattle, United States.
 
 Marelli, M., Menini, S., Baroni, M., Bentivogli, L., Bernardi, R., & Zamparelli, R. (2014) _A SICK cure for the evaluation of compositional distributional semantic models_ In Proceedings of the 9th International Conference on Language Resources and Evaluation, LREC 2014 (pp. 216-223). European Language Resources Association (ELRA).
