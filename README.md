@@ -1,6 +1,6 @@
 # SICK-fr-rebanked
 
-![CC-BY-NC-SA](https://commons.wikimedia.org/wiki/File:CC_BY-NC-SA.svg)
+![CC-BY-NC-SA](CC_BY-NC-SA.svg)
 
 ## Datasets
 
