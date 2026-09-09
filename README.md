@@ -1,6 +1,4 @@
-# SICK-fr-rebanked
-
-![CC-BY-NC-SA](CC_BY-NC-SA.svg)
+# French SICK, GQNLI and FraCaS rebanked
 
 ## Datasets
 
