@@ -1,5 +1,7 @@
 # SICK-fr-rebanked
 
+![CC-BY-NC-SA](https://commons.wikimedia.org/wiki/File:CC_BY-NC-SA.svg)
+
 ## Datasets
 
 The [French SICK dataset](https://huggingface.co/datasets/maximoss/sick-fr) of Skandalis e.a. (2024) is an automatic translation of the original [English SICK dataset](https://huggingface.co/datasets/RobZamp/sick) of Marelli e.a. (2014).
