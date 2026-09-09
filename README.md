@@ -70,7 +70,7 @@ Another possible use case is to add the training data from the different dataset
 
 ## License
 
-This work is presented as is to help to research community and under the same license of the datasets from which it is derived (CC-BY-NC-SA-4.0). However, if you find any remaining errors in these files (translation, part-of-speech tag, lemma, formula, parse), please notify me and I will fix these as soon as possible.
+This work is presented _as is_ to help to research community and under the most general license compatible with all the datasets from which it is derived (CC-BY-NC-SA-4.0). However, if you find any remaining errors in these files (translation, part-of-speech tag, lemma, formula, parse), please notify me and I will fix these as soon as possible.
 
 If you find this work useful, please cite Skandalis e.a. (2024, 2025) and the authors of the original datasets.
 
