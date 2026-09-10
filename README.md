@@ -1,4 +1,4 @@
-# SICK-fr-rebanked
+# French SICK, GQNLI and FraCaS rebanked
 
 ## Datasets
 
@@ -11,7 +11,7 @@ The [French FraCaS dataset](https://gitlab.inria.fr/semagramme-public-projects/r
 ## Rebanked versions
 
 The repository contains rebanked versions of the following French language Natural Language Inference datasets.
-- SICK (19 681 sentences, in separate files `sickfr_superpos.pl` ans `sick_crosses.pl` due to size)
+- SICK (19 681 sentences, in separate files `sickfr_superpos.pl` and `sick_crosses.pl` due to size)
 - GQNLI (703 sentences, single file `gqnli_fr_superpos.pl`)
 - FraCaS (877 sentences, single file `fracas_fr_superpos.pl`)
 
@@ -70,7 +70,7 @@ Another possible use case is to add the training data from the different dataset
 
 ## License
 
-This work is presented as is to help to research community and under the same license of the datasets from which it is derived (CC-BY-NC-SA-4.0). However, if you find any remaining errors in these files (translation, part-of-speech tag, lemma, formula, parse), please notify me and I will fix these as soon as possible.
+This work is presented _as is_ to help to research community and under the most general license compatible with all the datasets from which it is derived ([CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)). If you find any remaining errors in these files (translation, part-of-speech tag, lemma, formula, parse), please notify me and I will fix these as soon as possible.
 
 If you find this work useful, please cite Skandalis e.a. (2024, 2025) and the authors of the original datasets.
 
