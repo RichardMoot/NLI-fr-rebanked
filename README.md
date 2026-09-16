@@ -22,9 +22,9 @@ All sentences have manually corrected part-of-speech tags and supertags. Althoug
 The recommended way to run the [GrailLight](https://github.com/RichardMoot/GrailLight) parser on this dataset is to start [SWI Prolog](https://www.swi-prolog.org),  then run the following commands to load the necessary files and start the parser.
 
 ```
-[grail_light_nd],      % loads the GrailLight parser
-[sickfr_superpos],     % loads the rebanked SICK dataset
-[sick_crosses],        % loads the bootstrap parser output
+[grail_light_nd].      % loads the GrailLight parser
+[sickfr_superpos].     % loads the rebanked SICK dataset
+[sick_crosses].        % loads the bootstrap parser output
 chart_parse_all.       % parses all sentences
 ```
 
@@ -43,19 +43,19 @@ The files in this repository are presented in the form expected by the GrailLigh
 
 For example, the following sequence of Prolog commands will transform the SICK dataset into the input expected by the supertagger and output it to `FILE.txt`.
 ```
-tell('FILE.txt'),
-[print_sents],
-[sickfr_superpos],
-print_sents,
+tell('FILE.txt').
+[print_sents].
+[sickfr_superpos].
+print_sents.
 told.
 ```
 
 Similarly, the following sequence of Prolog commands will transform the GQNLI dataset into tokenized text input for evaluating the entire NLI treatment chain and output it to `FILE.txt`.
 ```
-tell('FILE.txt'),
-[print_sents],
-[gqnli_fr_superpos],
-print_words,
+tell('FILE.txt').
+[print_sents].
+[gqnli_fr_superpos].
+print_words.
 told.
 ```
 
