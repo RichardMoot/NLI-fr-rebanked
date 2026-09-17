@@ -20010,8 +20010,8 @@ sent(1138, Result) :-
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(chien, nc-nom, chien, [n-1]),
-		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(trot, nc-nom, trot, [n-1])
+		     si(qui, prorel-pro:rel, qui, [dr(0, dl(0, n, n), dl(0, np, s))-1]),
+		     si(trotte, v-ver:pres, trotter, [dl(0, np, s)-1])
 		   ],
 		   Result).
 sent(1139, Result) :-
@@ -20390,9 +20390,8 @@ sent(1156, Result) :-
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(chien, nc-nom, chien, [n-1]),
-		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(trot, nc-nom, trot, [n-1])
-		   ],
+		     si(qui, prorel-pro:rel, qui, [dr(0, dl(0, n, n), dl(0, np, s))-1]),
+		     si(trotte, v-ver:pres, trotter, [dl(0, np, s)-1])		   ],
 		   Result).
 sent(1157, Result) :-
 	prob_parse(
@@ -46735,7 +46734,7 @@ sent(2681, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
-		     si(affûte, v-ver:pres, affûter, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(crayon, nc-nom, crayon, [n-1])
 		   ],
@@ -46768,7 +46767,7 @@ sent(2684, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
-		     si(affûte, v-ver:pres, affûter, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(crayon, nc-nom, crayon, [n-1])
 		   ],
@@ -46777,7 +46776,7 @@ sent(2685, Result) :-
 	prob_parse(
 		   [ si('La', det-det:art, la, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
-		     si(rase, v-ver:pres, raser, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(bout, nc-nom, bout, [n-1]),
 		     si('d\'', p-prp, de, [dr(0, dl(0, n, n), np)-1]),
@@ -46789,17 +46788,14 @@ sent(2686, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(crayon, nc-nom, crayon, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(raser,
-			vinf-ver:infi,
-			raser,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(taillé,
+			vpp-ver:pper,
+			tailler,
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1])
@@ -46810,7 +46806,7 @@ sent(2687, Result) :-
 		   [ si('La', det-det:art, la, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
 		     si(ne, adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
-		     si(rase, v-ver:pres, raser, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(crayon, nc-nom, crayon, [n-1])
@@ -46820,7 +46816,7 @@ sent(2688, Result) :-
 	prob_parse(
 		   [ si('La', det-det:art, la, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
-		     si(rase, v-ver:pres, raser, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(bout, nc-nom, bout, [n-1]),
 		     si('d\'', p-prp, de, [dr(0, dl(0, n, n), np)-1]),
@@ -46832,17 +46828,14 @@ sent(2689, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(crayon, nc-nom, crayon, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(raser,
-			vinf-ver:infi,
-			raser,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(taillé,
+			vpp-ver:pper,
+			tailler,
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(la, det-det:art, la, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1])
@@ -46852,7 +46845,7 @@ sent(2690, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
-		     si(affûte, v-ver:pres, affûter, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(crayon, nc-nom, crayon, [n-1])
 		   ],
@@ -46862,7 +46855,7 @@ sent(2691, Result) :-
 		   [ si('La', det-det:art, la, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
 		     si(ne, adv-adv, ne, [dr(0, dl(0, np, s), dl(0, np, s))-1]),
-		     si(rase, v-ver:pres, raser, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(pas, adv-adv, pas, [dl(1, s, s)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(crayon, nc-nom, crayon, [n-1])
@@ -46872,7 +46865,7 @@ sent(2692, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
-		     si(affûte, v-ver:pres, affûter, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(crayon, nc-nom, crayon, [n-1])
 		   ],
@@ -46881,7 +46874,7 @@ sent(2693, Result) :-
 	prob_parse(
 		   [ si('La', det-det:art, la, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
-		     si(rase, v-ver:pres, raser, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(bout, nc-nom, bout, [n-1]),
 		     si('d\'', p-prp, de, [dr(0, dl(0, n, n), np)-1]),
@@ -46917,7 +46910,7 @@ sent(2696, Result) :-
 	prob_parse(
 		   [ si('La', det-det:art, la, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
-		     si(rase, v-ver:pres, raser, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(bout, nc-nom, bout, [n-1]),
 		     si('d\'', p-prp, de, [dr(0, dl(0, n, n), np)-1]),
@@ -46929,7 +46922,7 @@ sent(2697, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
-		     si(affûte, v-ver:pres, affûter, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(crayon, nc-nom, crayon, [n-1])
 		   ],
@@ -46938,7 +46931,7 @@ sent(2698, Result) :-
 	prob_parse(
 		   [ si('La', det-det:art, la, [dr(0, np, n)-1]),
 		     si(machine, nc-nom, machine, [n-1]),
-		     si(rase, v-ver:pres, raser, [dr(0, dl(0, np, s), np)-1]),
+		     si(taille, v-ver:pres, tailler, [dr(0, dl(0, np, s), np)-1]),
 		     si(le, det-det:art, le, [dr(0, np, n)-1]),
 		     si(bout, nc-nom, bout, [n-1]),
 		     si('d\'', p-prp, de, [dr(0, dl(0, n, n), np)-1]),
@@ -47181,8 +47174,8 @@ sent(2719, Result) :-
 		     si(rincé,
 			vpp-ver:pper,
 			rincer,
-			[dr(0, dr(0, dl(0, np, s_pass), pp_par), pp)-1]),
-		     si(à, p-prp, à, [dr(0, pp_a, np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
+		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(eau, nc-nom, eau, [n-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
@@ -47240,8 +47233,8 @@ sent(2723, Result) :-
 		     si(rincé,
 			vpp-ver:pper,
 			rincer,
-			[dr(0, dr(0, dl(0, np, s_pass), pp_par), pp)-1]),
-		     si(à, p-prp, à, [dr(0, pp_a, np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
+		     si(à, p-prp, à, [dr(0, dl(1, s, s), np)-1]),
 		     si('l\'', det-det:art, 'l\'', [dr(0, np, n)-1]),
 		     si(eau, nc-nom, eau, [n-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
@@ -47776,17 +47769,14 @@ sent(2773, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(crevette, nc-nom, crevette, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(couper,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(coupé,
+			vpp-ver:pper,
 			couper,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -47837,17 +47827,14 @@ sent(2778, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(crevette, nc-nom, crevette, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(couper,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(coupé,
+			vpp-ver:pper,
 			couper,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -58853,17 +58840,14 @@ sent(3618, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
 		     si(tofu, nc-nom, tofu, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -58873,17 +58857,14 @@ sent(3619, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
 		     si(tofu, nc-nom, tofu, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -58930,17 +58911,14 @@ sent(3622, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
 		     si(tofu, nc-nom, tofu, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -59049,17 +59027,14 @@ sent(3629, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
 		     si(tofu, nc-nom, tofu, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -59100,17 +59075,14 @@ sent(3632, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
 		     si(tofu, nc-nom, tofu, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -59138,17 +59110,14 @@ sent(3634, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
 		     si(tofu, nc-nom, tofu, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -59173,17 +59142,14 @@ sent(3636, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
 		     si(tofu, nc-nom, tofu, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -114256,17 +114222,14 @@ sent(7808, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -114276,17 +114239,14 @@ sent(7809, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(tomate, nc-nom, tomate, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -147992,17 +147952,14 @@ sent(10473, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(pieuvre, nc-nom, pieuvre, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -148051,17 +148008,14 @@ sent(10478, Result) :-
 	prob_parse(
 		   [ si('Une', det-det:art, un, [dr(0, np, n)-1]),
 		     si(pieuvre, nc-nom, pieuvre, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -155485,17 +155439,14 @@ sent(11075, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
 		     si(tofu, nc-nom, tofu, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -155547,17 +155498,14 @@ sent(11080, Result) :-
 	prob_parse(
 		   [ si('Le', det-det:art, le, [dr(0, np, n)-1]),
 		     si(tofu, nc-nom, tofu, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(une, det-det:art, un, [dr(0, np, n)-1]),
 		     si(femme, nc-nom, femme, [n-1])
@@ -157945,17 +157893,14 @@ sent(11294, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(poisson, nc-nom, poisson, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1])
@@ -157992,17 +157937,14 @@ sent(11298, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(poisson, nc-nom, poisson, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1])
@@ -302296,17 +302238,14 @@ sent(19416, Result) :-
 	prob_parse(
 		   [ si('Un', det-det:art, un, [dr(0, np, n)-1]),
 		     si(poisson, nc-nom, poisson, [n-1]),
-		     si(se, clr-pro:per, se, [cl_r-1]),
-		     si(fait,
+		     si(est,
 			v-ver:pres,
-			faire,
-			
-			[ dr(0, dl(0, cl_r, dl(0, np, s)), dr(0, dl(0, np, s_inf), dia(1, box(1, np))))-1
-			]),
-		     si(trancher,
-			vinf-ver:infi,
+			être,
+			[dr(0, dl(0, np, s), dl(0, np, s_pass))-1]),
+		     si(tranché,
+			vpp-ver:pper,
 			trancher,
-			[dr(0, dr(0, dl(0, np, s_inf), pp), np)-1]),
+			[dr(0, dl(0, np, s_pass), pp_par)-1]),
 		     si(par, p-prp, par, [dr(0, pp_par, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(homme, nc-nom, homme, [n-1])
@@ -304745,9 +304684,8 @@ sent(19572, Result) :-
 		     si('d\'', p-prp, de, [dr(0, pp_de, np)-1]),
 		     si(un, det-det:art, un, [dr(0, np, n)-1]),
 		     si(chien, nc-nom, chien, [n-1]),
-		     si(de, p-prp, de, [dr(0, dl(0, n, n), n)-1]),
-		     si(trot, nc-nom, trot, [n-1])
-		   ],
+		     si(qui, prorel-pro:rel, qui, [dr(0, dl(0, n, n), dl(0, np, s))-1]),
+		     si(trotte, v-ver:pres, trotter, [dl(0, np, s)-1])		   ],
 		   Result).
 sent(19573, Result) :-
 	prob_parse(
